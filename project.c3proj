@@ -373,7 +373,14 @@
 			"Tall_Rock4",
 			"Flag_Speed1R4",
 			"Flag_Speed1L4",
-			"Speed_Gap4"
+			"Speed_Gap4",
+			"Flag_Speed1R5",
+			"Flag_Speed1L5",
+			"Speed_Gap5",
+			"Tree13",
+			"Tree14",
+			"Tree15",
+			"Tall_Rock5"
 		],
 		"subfolders": []
 	},
@@ -389,7 +396,8 @@
 			"TallRock",
 			"NewLevel3",
 			"NewLevel4",
-			"Flags"
+			"Flags",
+			"NewLevel5"
 		],
 		"subfolders": [
 			{

@@ -315,6 +315,22 @@
 						},
 						{
 							"id": "set-y",
+							"objectClass": "NewLevel4",
+							"sid": 381612717417240,
+							"parameters": {
+								"y": "NewLevel4.Y-ScrollingSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel5",
+							"sid": 499150139275810,
+							"parameters": {
+								"y": "NewLevel5.Y-ScrollingSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
 							"objectClass": "Ramp",
 							"sid": 205040522788189,
 							"parameters": {
@@ -425,6 +441,22 @@
 						},
 						{
 							"id": "set-y",
+							"objectClass": "NewLevel4",
+							"sid": 402219968432836,
+							"parameters": {
+								"y": "NewLevel4.Y-DownSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel5",
+							"sid": 627651616545660,
+							"parameters": {
+								"y": "NewLevel5.Y-DownSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
 							"objectClass": "Ramp",
 							"sid": 701818095232451,
 							"parameters": {
@@ -528,6 +560,22 @@
 							"sid": 154348906203654,
 							"parameters": {
 								"y": "NewLevel3.Y-DownSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel4",
+							"sid": 421809450438023,
+							"parameters": {
+								"y": "NewLevel4.Y-DownSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel5",
+							"sid": 539328270297868,
+							"parameters": {
+								"y": "NewLevel5.Y-DownSpeed*dt"
 							}
 						},
 						{
@@ -2370,7 +2418,8 @@
 							}
 						}
 					],
-					"sid": 836007988815888
+					"sid": 836007988815888,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2391,7 +2440,8 @@
 							}
 						}
 					],
-					"sid": 419142657082828
+					"sid": 419142657082828,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2417,7 +2467,8 @@
 							}
 						}
 					],
-					"sid": 361559979786949
+					"sid": 361559979786949,
+					"disabled": true
 				}
 			],
 			"sid": 424994963397579
