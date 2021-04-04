@@ -1,0 +1,110 @@
+{
+	"name": "MainMenu_Events",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 400590712831847,
+					"parameters": {
+						"object": "Play_MainMenu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 358058776576338,
+					"parameters": {
+						"layout": "Playstate"
+					}
+				}
+			],
+			"sid": 120931189886862
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 601716892670508
+				}
+			],
+			"actions": [
+				{
+					"id": "get-item",
+					"objectClass": "LocalStorage",
+					"sid": 113974694578279,
+					"parameters": {
+						"key": "\"bestscore\""
+					}
+				}
+			],
+			"sid": 947730438119619
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-item-missing",
+					"objectClass": "LocalStorage",
+					"sid": 137038898155715,
+					"parameters": {
+						"key": "\"bestscore\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-item",
+					"objectClass": "LocalStorage",
+					"sid": 423632965019765,
+					"parameters": {
+						"key": "\"bestscore\"",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 890645397487466,
+					"parameters": {
+						"variable": "Exbestscore",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 800571780515418
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-item-get",
+					"objectClass": "LocalStorage",
+					"sid": 269325322123656,
+					"parameters": {
+						"key": "\"bestscore\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 894792167824476,
+					"parameters": {
+						"variable": "Exbestscore",
+						"value": "int(LocalStorage.ItemValue)"
+					}
+				}
+			],
+			"sid": 343316143547646
+		}
+	],
+	"sid": 742791855979510
+}

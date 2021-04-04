@@ -1,0 +1,19 @@
+{
+	"name": "NewLevel1",
+	"plugin-id": "Sprite",
+	"sid": 152094358332177,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Tree1",
+		"Tree2",
+		"Tree3",
+		"Tall_Rock",
+		"PebbleL1",
+		"PebbleR1",
+		"Flag_Speed1R",
+		"Speed_Gap",
+		"Flag_Speed1L"
+	]
+}

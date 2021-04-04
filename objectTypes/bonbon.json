@@ -1,0 +1,72 @@
+{
+	"name": "BonBon",
+	"plugin-id": "Sprite",
+	"sid": 308538998197035,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 842918984680227
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 583650045956990
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 178,
+						"height": 233,
+						"originX": 0.49719101123595505,
+						"originY": 0.49141630901287553,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1538232,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9986101357677902,
+								0,
+								0.9967009012172285,
+								0.996283753576538,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 178,
+						"height": 233,
+						"originX": 0.49719101123595505,
+						"originY": 0.49141630901287553,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4973757,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 898506486226402,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 4
+			}
+		],
+		"subfolders": []
+	}
+}

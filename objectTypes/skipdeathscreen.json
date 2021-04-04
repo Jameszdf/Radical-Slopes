@@ -1,0 +1,21 @@
+{
+	"name": "SkipDeathScreen",
+	"plugin-id": "progressbar",
+	"sid": 887157815094576,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "SkipProgress",
+			"type": "number",
+			"desc": "",
+			"sid": 558679802111760
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 510556435811410
+		}
+	]
+}

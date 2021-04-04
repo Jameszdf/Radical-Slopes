@@ -1,0 +1,140 @@
+{
+	"name": "Player_Particles",
+	"plugin-id": "Particles",
+	"sid": 215796383720957,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Speed",
+			"type": "number",
+			"desc": "",
+			"sid": 185611780712002
+		},
+		{
+			"name": "Cone",
+			"type": "number",
+			"desc": "",
+			"sid": 512981566007979
+		},
+		{
+			"name": "SprayRate",
+			"type": "number",
+			"desc": "",
+			"sid": 596180338765274
+		},
+		{
+			"name": "color",
+			"type": "number",
+			"desc": "",
+			"sid": 422910207839356
+		},
+		{
+			"name": "R1",
+			"type": "number",
+			"desc": "",
+			"sid": 781150695298580
+		},
+		{
+			"name": "G1",
+			"type": "number",
+			"desc": "",
+			"sid": 907132506742982
+		},
+		{
+			"name": "B1",
+			"type": "number",
+			"desc": "",
+			"sid": 719342110974064
+		},
+		{
+			"name": "R2",
+			"type": "number",
+			"desc": "",
+			"sid": 769205953632403
+		},
+		{
+			"name": "G2",
+			"type": "number",
+			"desc": "",
+			"sid": 684808427665391
+		},
+		{
+			"name": "B2",
+			"type": "number",
+			"desc": "",
+			"sid": 894027930638185
+		},
+		{
+			"name": "R3",
+			"type": "number",
+			"desc": "",
+			"sid": 148682250654969
+		},
+		{
+			"name": "G3",
+			"type": "number",
+			"desc": "",
+			"sid": 162800126509492
+		},
+		{
+			"name": "B3",
+			"type": "number",
+			"desc": "",
+			"sid": 374262992653373
+		},
+		{
+			"name": "R4",
+			"type": "number",
+			"desc": "",
+			"sid": 560660070272712
+		},
+		{
+			"name": "G4",
+			"type": "number",
+			"desc": "",
+			"sid": 810930796878442
+		},
+		{
+			"name": "B4",
+			"type": "number",
+			"desc": "",
+			"sid": 513413002812294
+		},
+		{
+			"name": "R5",
+			"type": "number",
+			"desc": "",
+			"sid": 841713142475624
+		},
+		{
+			"name": "G5",
+			"type": "number",
+			"desc": "",
+			"sid": 428224237637323
+		},
+		{
+			"name": "B5",
+			"type": "number",
+			"desc": "",
+			"sid": 243736980520200
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"image": {
+		"width": 205,
+		"height": 252,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 868796,
+		"useCollisionPoly": true
+	}
+}

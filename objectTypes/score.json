@@ -1,0 +1,111 @@
+{
+	"name": "Score",
+	"plugin-id": "Text",
+	"sid": 590075134604872,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "TextColor",
+			"type": "number",
+			"desc": "",
+			"sid": 242810894913154
+		},
+		{
+			"name": "R1",
+			"type": "number",
+			"desc": "",
+			"sid": 776458369897073
+		},
+		{
+			"name": "G1",
+			"type": "number",
+			"desc": "",
+			"sid": 104839028769021
+		},
+		{
+			"name": "B1",
+			"type": "number",
+			"desc": "",
+			"sid": 593548080174386
+		},
+		{
+			"name": "R2",
+			"type": "number",
+			"desc": "",
+			"sid": 679367512706542
+		},
+		{
+			"name": "G2",
+			"type": "number",
+			"desc": "",
+			"sid": 732410450173728
+		},
+		{
+			"name": "B2",
+			"type": "number",
+			"desc": "",
+			"sid": 146393820622468
+		},
+		{
+			"name": "R3",
+			"type": "number",
+			"desc": "",
+			"sid": 654911999969232
+		},
+		{
+			"name": "G3",
+			"type": "number",
+			"desc": "",
+			"sid": 657674132771599
+		},
+		{
+			"name": "B3",
+			"type": "number",
+			"desc": "",
+			"sid": 823510396077138
+		},
+		{
+			"name": "R4",
+			"type": "number",
+			"desc": "",
+			"sid": 354324777645924
+		},
+		{
+			"name": "G4",
+			"type": "number",
+			"desc": "",
+			"sid": 531470063880040
+		},
+		{
+			"name": "B4",
+			"type": "number",
+			"desc": "",
+			"sid": 512069714675417
+		},
+		{
+			"name": "R5",
+			"type": "number",
+			"desc": "",
+			"sid": 412185874232128
+		},
+		{
+			"name": "G5",
+			"type": "number",
+			"desc": "",
+			"sid": 675169424986228
+		},
+		{
+			"name": "B5",
+			"type": "number",
+			"desc": "",
+			"sid": 384475106778825
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	]
+}

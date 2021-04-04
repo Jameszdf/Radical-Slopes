@@ -1,0 +1,1349 @@
+{
+	"name": "GameOver_Events",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Exbestscore",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 314013939484253
+		},
+		{
+			"eventType": "variable",
+			"name": "Can_GoBackToPlayState",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 493763805582551
+		},
+		{
+			"eventType": "variable",
+			"name": "Can_Go_Title",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 102333530683206
+		},
+		{
+			"eventType": "variable",
+			"name": "TimesPlayerHasDied",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 561666251938866
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 151504673299214
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Score_GameOver",
+					"sid": 850401408588165,
+					"parameters": {
+						"text": "round(Score)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "BestScore_Gameover",
+					"sid": 961719639206696,
+					"parameters": {
+						"text": "round(Exbestscore)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "FlagsPassed_GameOver",
+					"sid": 212771119812912,
+					"parameters": {
+						"text": "FlagsPassed"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "FlagMultiplier_GameOver",
+					"sid": 101524294311511,
+					"parameters": {
+						"text": "FlagMultiplier"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TotalScore_GameOver",
+					"sid": 639662817315601,
+					"parameters": {
+						"text": "round(Score)"
+					}
+				}
+			],
+			"sid": 205480973374127,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 973230986876589,
+							"parameters": {
+								"variable": "Score",
+								"comparison": 3,
+								"value": "09"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 272532457028168
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 705801463834110,
+							"parameters": {
+								"variable": "Exbestscore",
+								"comparison": 2,
+								"value": "Score"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 105236505730945,
+							"parameters": {
+								"variable": "Exbestscore",
+								"value": "Score"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "BestScore_Gameover",
+							"sid": 452967422440730,
+							"parameters": {
+								"text": "round(Exbestscore)"
+							}
+						},
+						{
+							"id": "set-item",
+							"objectClass": "LocalStorage",
+							"sid": 275885975078972,
+							"parameters": {
+								"key": "\"bestscore\"",
+								"value": "Exbestscore"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 835461883913453,
+							"parameters": {
+								"seconds": "6.25"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "New_Animated",
+							"sid": 284015037354347,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 208030558293790,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 486301050650080,
+							"parameters": {
+								"audio-file": "GameOver_Cheering",
+								"loop": "not-looping",
+								"volume": "-5",
+								"tag-optional": "\"Cheer\""
+							}
+						}
+					],
+					"sid": 361982809815174
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 851790795950463,
+					"parameters": {
+						"object": "PlayAgain_Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 313569110682928,
+					"parameters": {
+						"layout": "Playstate"
+					}
+				}
+			],
+			"sid": 845618513315994
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Shortcut Keys2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 669432818691728,
+							"parameters": {
+								"key": 82
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 949148138459938
+						}
+					],
+					"sid": 110096996262146,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 877561963638203,
+							"parameters": {
+								"key": 80
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "toggle-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 873002225108335,
+							"parameters": {
+								"variable": "Pause"
+							}
+						}
+					],
+					"sid": 199571321467644,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 763705652320218,
+							"parameters": {
+								"variable": "Pause"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-time-scale",
+							"objectClass": "System",
+							"sid": 944457074846502,
+							"parameters": {
+								"time-scale": "0"
+							}
+						}
+					],
+					"sid": 532026887817606,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 138541671122847,
+							"parameters": {
+								"variable": "Pause"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-time-scale",
+							"objectClass": "System",
+							"sid": 953921374279312,
+							"parameters": {
+								"time-scale": "1.0"
+							}
+						}
+					],
+					"sid": 933252420080458,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 945254508884476,
+							"parameters": {
+								"key": 27
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "close",
+							"objectClass": "Browser",
+							"sid": 314725294126546
+						}
+					],
+					"sid": 774654215389512
+				}
+			],
+			"sid": 826687471124773
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Text Fade in",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 923159140490313
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 660163455713983,
+							"parameters": {
+								"variable": "Can_Go_Title",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 535004419119609,
+							"parameters": {
+								"variable": "Can_GoBackToPlayState",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 544790299026150,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 214454799930400,
+							"parameters": {
+								"variable": "Can_GoBackToPlayState",
+								"value": "false"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 704887277532683,
+							"parameters": {
+								"seconds": "0.1"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "FinalScore_GameOver_Text",
+							"sid": 107554304921567,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 964663596685367,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "-8",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 365326557625862,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "TotalScore_GameOver",
+							"sid": 548339759797504,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 799234208625667,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "-8",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 210528028808605,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "BestScore_GameOver_Text",
+							"sid": 830269484621183,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 685279786517586,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "-8",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 783431621012128,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "BestScore_Gameover",
+							"sid": 683408301034187,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 459809112027697,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "-8",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 421742079056838,
+							"parameters": {
+								"seconds": "1.5"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "PressSpace",
+							"sid": 920320711816696,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 610933253132841,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "-8",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 184860330987981,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "BackSpace",
+							"sid": 537827170854040,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 568816207211761,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "-8",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 318088744207119,
+							"parameters": {
+								"variable": "Can_GoBackToPlayState",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 959758965197663,
+							"parameters": {
+								"variable": "Can_Go_Title",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 659756772787272
+				}
+			],
+			"sid": 277148607010133
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Space_Button",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 704056356570124,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 769876303102339,
+							"parameters": {
+								"variable": "Can_GoBackToPlayState"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 239583616864133,
+							"parameters": {
+								"layout": "Playstate"
+							}
+						}
+					],
+					"sid": 562045963682560
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 180306248821319
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 789030628844461,
+							"parameters": {
+								"variable": "Can_GoBackToPlayState"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 960700507692091,
+							"parameters": {
+								"layout": "Playstate"
+							}
+						}
+					],
+					"sid": 944556867218131
+				}
+			],
+			"sid": 352600915682340
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 573340963214339
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 300523868353766,
+					"parameters": {
+						"variable": "TreeIsHit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-source",
+					"objectClass": "Cutscene",
+					"sid": 378876186679861,
+					"parameters": {
+						"webm-source": "\"GameOver2.webm\"",
+						"ogg-theora-source": "\"\"",
+						"h264-source": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Cutscene",
+					"sid": 155784135208486
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 151108769676355,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Cutscene",
+					"sid": 503503694512439,
+					"parameters": {
+						"opacity": "50"
+					}
+				}
+			],
+			"sid": 637129919627260
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 232087567768753
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 371716977232737,
+					"parameters": {
+						"variable": "FallOffScreen"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-source",
+					"objectClass": "Cutscene",
+					"sid": 487725606163008,
+					"parameters": {
+						"webm-source": "\"GameOver1.webm\"",
+						"ogg-theora-source": "\"\"",
+						"h264-source": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Cutscene",
+					"sid": 899556903611362
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 974808915976054,
+					"parameters": {
+						"seconds": "0.95"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 184505573660720,
+					"parameters": {
+						"audio-file": "Player_ScreamFall",
+						"loop": "not-looping",
+						"volume": "-4",
+						"tag-optional": "\"Screaming\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 416868593411882,
+					"parameters": {
+						"seconds": "1.25"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 501153140733107,
+					"parameters": {
+						"tag": "\"Screaming\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 325065245239899,
+					"parameters": {
+						"seconds": "1.7"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Cutscene",
+					"sid": 783443519345118,
+					"parameters": {
+						"opacity": "50"
+					}
+				}
+			],
+			"sid": 246349286749769
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 750132684282862,
+					"parameters": {
+						"key": 8
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 372102646382658,
+					"parameters": {
+						"variable": "Can_Go_Title"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 142217094185293,
+					"parameters": {
+						"layout": "TitleScreen"
+					}
+				}
+			],
+			"sid": 413349534794546
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 924892171653333
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 603640239274436,
+					"parameters": {
+						"tag": "\"Cheer\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 179974754500079,
+					"parameters": {
+						"tag": "\"Wind\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 457876377761270,
+					"parameters": {
+						"tag": "\"Screaming\""
+					}
+				}
+			],
+			"sid": 409751708497128
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Progress Bar Skip",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 999913485119283
+						}
+					],
+					"actions": [
+						{
+							"id": "set-maximum",
+							"objectClass": "SkipDeathScreen",
+							"sid": 614263514209813,
+							"parameters": {
+								"maximum": "100"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "SkipDeathScreen",
+							"sid": 820306527964165,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 631788078725260
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 923257431235925
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 455647112207918,
+							"parameters": {
+								"variable": "TimesPlayerHasDied",
+								"comparison": 5,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "SkipDeathScreen",
+							"sid": 971638787912266,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipText",
+							"sid": 615360171626024,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 813477141517842
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 462772024570542,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "start-timer",
+							"objectClass": "SkipDeathScreen",
+							"sid": 162040982847783,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "0.25",
+								"type": "once",
+								"tag": "\"Skip Bar\""
+							}
+						}
+					],
+					"sid": 526988002353141
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-start",
+							"objectClass": "Touch",
+							"sid": 740664274898559
+						}
+					],
+					"actions": [
+						{
+							"id": "start-timer",
+							"objectClass": "SkipDeathScreen",
+							"sid": 367348723617131,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "0.25",
+								"type": "once",
+								"tag": "\"Skip Bar\""
+							}
+						}
+					],
+					"sid": 801236685522377
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-timer",
+							"objectClass": "SkipDeathScreen",
+							"sid": 888411081309334,
+							"behaviorType": "Timer",
+							"parameters": {
+								"tag": "\"Skip Bar\""
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 317161796505107,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "SkipDeathScreen",
+							"sid": 350350180120483,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipText",
+							"sid": 136460238577667,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 884538635248762
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-timer",
+							"objectClass": "SkipDeathScreen",
+							"sid": 473329214222700,
+							"behaviorType": "Timer",
+							"parameters": {
+								"tag": "\"Skip Bar\""
+							}
+						},
+						{
+							"id": "is-in-touch",
+							"objectClass": "Touch",
+							"sid": 915041461496544
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "SkipDeathScreen",
+							"sid": 822739138122392,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipText",
+							"sid": 813411510592635,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 930340093681745
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 203332300466263,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 376625249391592
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "SkipDeathScreen",
+							"sid": 708507551634220,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 945098455058591
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-in-touch",
+							"objectClass": "Touch",
+							"sid": 766267528274415
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 315040835846185
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "SkipDeathScreen",
+							"sid": 573468675564931,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 637577739436687
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 886161270860746,
+							"parameters": {
+								"key": 32
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-in-touch",
+							"objectClass": "Touch",
+							"sid": 789114813043611,
+							"isInverted": true
+						},
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 551769598387980
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "SkipDeathScreen",
+							"sid": 967949570703906,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 289636438590169
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 916526665640941,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "SkipText",
+							"sid": 358505408758867,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipDeathScreen",
+							"sid": 802352601850773,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 930878068254244
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 320894245613620
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "SkipText",
+							"sid": 596187502694008,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipDeathScreen",
+							"sid": 276626877043547,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 329982283823609
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "SkipDeathScreen",
+							"sid": 301885106700141,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"comparison": 2,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "SkipDeathScreen",
+							"sid": 974745246900543,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 999719711474959
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 263108717240143
+						}
+					],
+					"actions": [
+						{
+							"id": "set-progress",
+							"objectClass": "SkipDeathScreen",
+							"sid": 540102195836879,
+							"parameters": {
+								"value": "SkipDeathScreen.SkipProgress"
+							}
+						}
+					],
+					"sid": 954877855423600,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-released",
+									"objectClass": "Keyboard",
+									"sid": 285430320375016,
+									"parameters": {
+										"key": 32
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "SkipDeathScreen",
+									"sid": 307134733244153,
+									"parameters": {
+										"instance-variable": "SkipProgress",
+										"comparison": 5,
+										"value": "100"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 773422294558099,
+									"parameters": {
+										"layout": "Playstate"
+									}
+								}
+							],
+							"sid": 313761971597199
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-any-touch-end",
+									"objectClass": "Touch",
+									"sid": 132028547016855
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "SkipDeathScreen",
+									"sid": 727777111972722,
+									"parameters": {
+										"instance-variable": "SkipProgress",
+										"comparison": 5,
+										"value": "100"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 983465602798892,
+									"parameters": {
+										"layout": "Playstate"
+									}
+								}
+							],
+							"sid": 401773696205156
+						}
+					]
+				}
+			],
+			"sid": 935936012991412
+		}
+	],
+	"sid": 945073889186405
+}

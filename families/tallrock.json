@@ -1,0 +1,14 @@
+{
+	"name": "TallRock",
+	"plugin-id": "Sprite",
+	"sid": 957597074764465,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Tall_Rock",
+		"Tall_Rock2",
+		"Tall_Rock3",
+		"Tall_Rock4"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Flags",
+	"plugin-id": "Sprite",
+	"sid": 307416689668066,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Flag_Speed1R4",
+		"Flag_Speed1R3",
+		"Flag_Speed1R2",
+		"Flag_Speed1R",
+		"Flag_Speed1L4",
+		"Flag_Speed1L3",
+		"Flag_Speed1L2",
+		"Flag_Speed1L"
+	]
+}

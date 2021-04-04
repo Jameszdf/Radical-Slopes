@@ -1,0 +1,490 @@
+{
+	"name": "HowToPlay_Events",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "RightFacing",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 936407448797087
+		},
+		{
+			"eventType": "variable",
+			"name": "LeftFacing",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 440845577096983
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 117226415246708,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Back_Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 550689688060656,
+					"parameters": {
+						"layout": "TitleScreen"
+					}
+				}
+			],
+			"sid": 685785068289413
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 913387888559813,
+					"parameters": {
+						"object": "Back_Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 741875154897649,
+					"parameters": {
+						"layout": "TitleScreen"
+					}
+				}
+			],
+			"sid": 878164127676540
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 436133771456702,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Play_Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 232667210876079,
+					"parameters": {
+						"layout": "Playstate"
+					}
+				}
+			],
+			"sid": 795403768293419
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 549562928886623,
+					"parameters": {
+						"object": "Play_Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 215122714504408,
+					"parameters": {
+						"layout": "Playstate"
+					}
+				}
+			],
+			"sid": 627955285833517
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 370932725779384,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 406788760071717,
+					"parameters": {
+						"variable": "RightFacing"
+					}
+				},
+				{
+					"id": "toggle-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 872026979798180,
+					"parameters": {
+						"variable": "LeftFacing"
+					}
+				}
+			],
+			"sid": 657382380973824
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Button_Opacity",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 817391829402947,
+							"parameters": {
+								"object": "Back_Sprite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Back_Sprite",
+							"sid": 274211468529037,
+							"parameters": {
+								"opacity": "75"
+							}
+						}
+					],
+					"sid": 513801555830203
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 673769726600964,
+							"parameters": {
+								"object": "Back_Sprite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Back_Sprite",
+							"sid": 530875253556598,
+							"parameters": {
+								"opacity": "75"
+							}
+						}
+					],
+					"sid": 337791636562950
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 598619686684367,
+							"parameters": {
+								"object": "Back_Sprite"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 423352492334086,
+							"parameters": {
+								"object": "Back_Sprite"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Back_Sprite",
+							"sid": 912747319518073,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 216865297404917
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 815640233970630,
+							"parameters": {
+								"object": "Play_Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Play_Sprite2",
+							"sid": 506616912750709,
+							"parameters": {
+								"opacity": "75"
+							}
+						}
+					],
+					"sid": 413937261102872
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 990069341755650,
+							"parameters": {
+								"object": "Play_Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Play_Sprite2",
+							"sid": 634729303379511,
+							"parameters": {
+								"opacity": "75"
+							}
+						}
+					],
+					"sid": 742880726456854
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 117502459833717,
+							"parameters": {
+								"object": "Play_Sprite2"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 520266376804518,
+							"parameters": {
+								"object": "Play_Sprite2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Play_Sprite2",
+							"sid": 254574777306235,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 448145305521063
+				}
+			],
+			"sid": 399511845527767
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 344857417198487
+				}
+			],
+			"actions": [
+				{
+					"id": "set-source",
+					"objectClass": "Turn_GIF",
+					"sid": 481861912720175,
+					"parameters": {
+						"webm-source": "\"Turn_GIF.webm\"",
+						"ogg-theora-source": "\"\"",
+						"h264-source": "\"\""
+					}
+				},
+				{
+					"id": "set-looping",
+					"objectClass": "Turn_GIF",
+					"sid": 697219315428601,
+					"parameters": {
+						"mode": "looping"
+					}
+				},
+				{
+					"id": "set-source",
+					"objectClass": "SpaceDown_GIF",
+					"sid": 229162088997748,
+					"parameters": {
+						"webm-source": "\"SpaceDown_GIF.webm\"",
+						"ogg-theora-source": "\"\"",
+						"h264-source": "\"\""
+					}
+				},
+				{
+					"id": "set-looping",
+					"objectClass": "SpaceDown_GIF",
+					"sid": 143868783490833,
+					"parameters": {
+						"mode": "looping"
+					}
+				},
+				{
+					"id": "set-source",
+					"objectClass": "Flags_GIF",
+					"sid": 380239412004560,
+					"parameters": {
+						"webm-source": "\"Flags_GIF.webm\"",
+						"ogg-theora-source": "\"\"",
+						"h264-source": "\"\""
+					}
+				},
+				{
+					"id": "set-looping",
+					"objectClass": "Flags_GIF",
+					"sid": 707157449292454,
+					"parameters": {
+						"mode": "looping"
+					}
+				}
+			],
+			"sid": 306648655558344
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 947250286017090,
+					"parameters": {
+						"variable": "RightFacing"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 406288803440256,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 694930139914316,
+					"parameters": {
+						"animation": "\"right\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 277799645162294
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 744947691944745,
+					"parameters": {
+						"variable": "LeftFacing"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 181127622344795,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 676747225927615,
+					"parameters": {
+						"animation": "\"right\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 223774121212320
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 754877645363336,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 227844141970520,
+					"parameters": {
+						"animation": "\"striaght\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 379211054863919
+		}
+	],
+	"sid": 140736363367211
+}

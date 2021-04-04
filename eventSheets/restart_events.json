@@ -1,0 +1,44 @@
+{
+	"name": "Restart_Events",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Restart",
+					"sid": 354847306532384
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 617719260169603,
+					"parameters": {
+						"layout": "\"Playstate\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 460531874443338,
+					"parameters": {
+						"tag": "\"snowboard\""
+					}
+				}
+			],
+			"sid": 179248637181330
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Test Group 1",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 335496987387296
+		}
+	],
+	"sid": 419044676961007
+}

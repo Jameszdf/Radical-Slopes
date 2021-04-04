@@ -1,0 +1,780 @@
+{
+	"name": "Credits_Events",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "James",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 127044949736264
+		},
+		{
+			"eventType": "variable",
+			"name": "Sean",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 292931672768623
+		},
+		{
+			"eventType": "variable",
+			"name": "Kenneth",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 607801226248176
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Info_Button2",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 811793341961692,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "Back_Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 438821490480955,
+							"parameters": {
+								"layout": "TitleScreen"
+							}
+						}
+					],
+					"sid": 106203399652007
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 251984187679190,
+							"parameters": {
+								"object": "Back_Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Back_Sprite2",
+							"sid": 376792302943094,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 726547129635855
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 591414938474142,
+							"parameters": {
+								"object": "Back_Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Back_Sprite2",
+							"sid": 839066721109557,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 757004356590296
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 322311224345351,
+							"parameters": {
+								"object": "Back_Sprite2"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 573054953087509,
+							"parameters": {
+								"object": "Back_Sprite2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Back_Sprite2",
+							"sid": 673175463203834,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 369074832067951
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 216442860899491
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 121905448071621,
+							"parameters": {
+								"object": "Back_Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 273073577609753,
+							"parameters": {
+								"layout": "TitleScreen"
+							}
+						}
+					],
+					"sid": 363989081847338
+				}
+			],
+			"sid": 213980303042933
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "BonBon_James",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 581202868075826,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "LeadProgrammer_James2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 152482616639126,
+							"parameters": {
+								"variable": "James",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 665237714578210
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 878265865474786
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 215165803685003,
+							"parameters": {
+								"object": "LeadProgrammer_James2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 836436173456556,
+							"parameters": {
+								"variable": "James",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 936617047033648
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 329461368508047,
+							"parameters": {
+								"object": "LeadProgrammer_James2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "LeadProgrammer_James2",
+							"sid": 800288892649812,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 919545800076494
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 808890860325279,
+							"parameters": {
+								"object": "LeadProgrammer_James2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "LeadProgrammer_James2",
+							"sid": 167977812009237,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 987808041011905
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 555004706832237,
+							"parameters": {
+								"object": "LeadProgrammer_James2"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 162334187001325,
+							"parameters": {
+								"object": "LeadProgrammer_James2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "LeadProgrammer_James2",
+							"sid": 704364207581267,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 245197910364562
+				}
+			],
+			"sid": 423893263502297
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "BonBon_Sean",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 255056926452564,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "ProjectManager_Sean2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 275890540114586,
+							"parameters": {
+								"variable": "Sean",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 260954665823902
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 169308027871613
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 586552505095575,
+							"parameters": {
+								"object": "ProjectManager_Sean2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 568690200506007,
+							"parameters": {
+								"variable": "Sean",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 632131168091722
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 720529787304459,
+							"parameters": {
+								"object": "ProjectManager_Sean2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "ProjectManager_Sean2",
+							"sid": 275764091239139,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 938561199805970
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 600580040296562,
+							"parameters": {
+								"object": "ProjectManager_Sean2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "ProjectManager_Sean2",
+							"sid": 389301849018547,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 582411692174651
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 717917176844058,
+							"parameters": {
+								"object": "ProjectManager_Sean2"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 193232830492001,
+							"parameters": {
+								"object": "ProjectManager_Sean2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "ProjectManager_Sean2",
+							"sid": 270543231674983,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 636449529473972
+				}
+			],
+			"sid": 782512925233210
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "BonBon_Kenneth",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 239656652485880,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "AssistantProgrammer_Kenneth2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 529375155661206,
+							"parameters": {
+								"variable": "Kenneth",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 860572333794299
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 711175854044929
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 443469936521198,
+							"parameters": {
+								"object": "AssistantProgrammer_Kenneth2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 138525573668510,
+							"parameters": {
+								"variable": "Kenneth",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 130463183533274
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 101145443062237,
+							"parameters": {
+								"object": "AssistantProgrammer_Kenneth2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "AssistantProgrammer_Kenneth2",
+							"sid": 799296658049503,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 360451841680835
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 930074992049623,
+							"parameters": {
+								"object": "AssistantProgrammer_Kenneth2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "AssistantProgrammer_Kenneth2",
+							"sid": 831101051860219,
+							"parameters": {
+								"opacity": "50"
+							}
+						}
+					],
+					"sid": 214132477128109
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 299396877595139,
+							"parameters": {
+								"object": "AssistantProgrammer_Kenneth2"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-touching-object",
+							"objectClass": "Touch",
+							"sid": 378155380296437,
+							"parameters": {
+								"object": "AssistantProgrammer_Kenneth2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "AssistantProgrammer_Kenneth2",
+							"sid": 156691770603337,
+							"parameters": {
+								"opacity": "100"
+							}
+						}
+					],
+					"sid": 994758742677775
+				}
+			],
+			"sid": 197305108886881
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "BonBon Movement/Restart",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 513031072366816,
+							"parameters": {
+								"variable": "James"
+							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 254608055040264,
+							"parameters": {
+								"variable": "Sean"
+							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 664729725455557,
+							"parameters": {
+								"variable": "Kenneth"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "BonBon",
+							"sid": 145131922897835,
+							"parameters": {
+								"angle": "180",
+								"distance": "4"
+							}
+						},
+						{
+							"id": "set-font-color",
+							"objectClass": "Credits_Title",
+							"sid": 467708382440113,
+							"parameters": {
+								"color": "rgb(227, 214, 17)"
+							}
+						}
+					],
+					"sid": 739098003745176
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 975507596650347
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 531347144522171,
+							"parameters": {
+								"variable": "James",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 384893103615542,
+							"parameters": {
+								"variable": "Sean",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 146476977119740,
+							"parameters": {
+								"variable": "Kenneth",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 561182048096692
+				}
+			],
+			"sid": 238656141247364
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-button-released",
+					"objectClass": "Mouse",
+					"sid": 190785080097117,
+					"parameters": {
+						"mouse-button": "left"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Credits_Title",
+					"sid": 212057531003646,
+					"parameters": {
+						"x": "251.115739",
+						"y": "55.790916"
+					}
+				}
+			],
+			"sid": 752570379907679
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 869839863955843,
+					"parameters": {
+						"object": "Credits_Title"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Credits_Title",
+					"sid": 427830506533169,
+					"parameters": {
+						"x": "251.115739",
+						"y": "55.790916"
+					}
+				}
+			],
+			"sid": 976802163950368
+		}
+	],
+	"sid": 463495467302852
+}

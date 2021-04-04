@@ -1,0 +1,33 @@
+{
+	"name": "Particles",
+	"plugin-id": "Particles",
+	"sid": 807053658462521,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "difference",
+			"name": "Difference"
+		},
+		{
+			"effectId": "hexpixellate",
+			"name": "HexagonalPixellate"
+		},
+		{
+			"effectId": "sphere",
+			"name": "Sphere"
+		}
+	],
+	"image": {
+		"width": 130,
+		"height": 106,
+		"originX": 0.5307692307692308,
+		"originY": 0.5660377358490566,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 1829585,
+		"useCollisionPoly": true
+	}
+}

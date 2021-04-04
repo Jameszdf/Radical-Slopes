@@ -1,0 +1,673 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 24100,
+	"name": "Flight",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "video",
+			"name": "Video",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Progress bar",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "custom",
+			"name": "Custom",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Adjust HSL",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "difference",
+			"name": "Difference",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hexpixellate",
+			"name": "Hexagonal pixellate",
+			"author": "Evan Wallace",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "sphere",
+			"name": "Sphere",
+			"author": "Brad Larson",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "multiply",
+			"name": "Multiply",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "pulse",
+			"name": "Pulse",
+			"author": "Danguafer/Silexars",
+			"version": "r241",
+			"bundled": false
+		}
+	],
+	"uniqueId": "4mx9jenvfxo",
+	"objectTypes": {
+		"items": [
+			"Touch",
+			"Play_MainMenu",
+			"Ground",
+			"Player",
+			"GapHelper",
+			"TotalScore_GameOver",
+			"Play_GameOver",
+			"LocalStorage",
+			"BestScore_Gameover",
+			"Keyboard",
+			"Ramp",
+			"Audio",
+			"FinishLine",
+			"YouWin",
+			"Restart",
+			"Browser",
+			"DescentTitle",
+			"Hint",
+			"Snow",
+			"Player_Particles",
+			"STARTGAME",
+			"HOWTOPLAY",
+			"BACKTOTITLESCREEN",
+			"NoTurn",
+			"RightText",
+			"LeftTurn",
+			"LeftText",
+			"Straight",
+			"StraightText",
+			"Flag_Speed1R",
+			"Speed_Gap",
+			"Particles",
+			"SpeedText",
+			"Score",
+			"Shadow",
+			"Speed_FullScreen",
+			"InstructionsSpeedUp",
+			"Score_GameOver_Text",
+			"FlagsPassed_GameOver_Text",
+			"FlagsPassed_GameOver_Flags_Text",
+			"FlagsPassed_GameOver",
+			"FlagMultiplier_GamePver_ForATotalMultiplierOf_Text",
+			"FlagMultiplier_GameOver_X",
+			"FlagMultiplier_GameOver",
+			"FinalScore_GameOver_Text",
+			"Score_GameOver",
+			"BestScore_GameOver_Text",
+			"PlayAgain_GameOver_Text",
+			"FlagMultiplier_PlayState",
+			"X_PlayState",
+			"CurrentMultiplier_PlayState",
+			"New_Animated",
+			"snowflake",
+			"Sprite",
+			"Sprite2",
+			"Play_Sprite",
+			"Mouse",
+			"Info_Button",
+			"Back_Sprite",
+			"PlayAgain_Sprite",
+			"GameTitle",
+			"CameraSubstitue",
+			"Score_Background",
+			"Score2",
+			"PointIndicator",
+			"Ground2",
+			"Play_Sprite2",
+			"PebbleL1",
+			"Tall_Rock",
+			"Speed_Gap2",
+			"Back_Sprite2",
+			"TreeCutscene",
+			"Cutscene",
+			"HighScore_Text",
+			"ProjectManager_Sean",
+			"LeadProgrammer_James",
+			"Lead2DArtist_Daniel",
+			"SoundDesignAssitedProgrammer_Nicholas",
+			"AssistantProgrammer_Kenneth",
+			"Credits_Title",
+			"BonBon",
+			"LeadProgrammer_James2",
+			"AssistantProgrammer_Kenneth2",
+			"ProjectManager_Sean2",
+			"SeansWierdThing",
+			"SnowTrail",
+			"BackSpace",
+			"PressSpace",
+			"ReturntToTitle",
+			"Turn_GIF",
+			"SpaceDown_GIF",
+			"Flags_GIF",
+			"GameTitle2",
+			"SkipDeathScreen",
+			"SkipText",
+			"character_respawn_point",
+			"Lives",
+			"TreePointsCollider",
+			"BarelyClippedNoSpaceText",
+			"BarelyClippedSpaceText",
+			"Player_Particles2",
+			"SnowWithDust",
+			"TimerText",
+			"TimeleftText",
+			"Tree1",
+			"Tree2",
+			"Tree3",
+			"PebbleR1",
+			"blasted_snow",
+			"DanielName",
+			"Nicholas_Name",
+			"Tree4",
+			"Tree5",
+			"Tree6",
+			"Tall_Rock2",
+			"Flag_Speed1L",
+			"Tree7",
+			"Tree8",
+			"Tree9",
+			"Tall_Rock3",
+			"Flag_Speed1R2",
+			"Flag_Speed1L2",
+			"Speed_Gap3",
+			"Flag_Speed1R3",
+			"Flag_Speed1L3",
+			"Tree10",
+			"Tree11",
+			"Tree12",
+			"Tall_Rock4",
+			"Flag_Speed1R4",
+			"Flag_Speed1L4",
+			"Speed_Gap4"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"Level1",
+			"Trees",
+			"FlagsHitbox",
+			"NewLevel1",
+			"NewLevel2",
+			"TallRock",
+			"NewLevel3",
+			"NewLevel4",
+			"Flags"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": [],
+				"name": "Area 1"
+			}
+		]
+	},
+	"layouts": {
+		"items": [
+			"Playstate",
+			"GameOver",
+			"Bonus Area",
+			"End",
+			"TitleScreen",
+			"HowToPlay",
+			"timeattack_playstate",
+			"Credits",
+			"LL1"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"MainMenu_Events",
+			"Playstate_Events",
+			"GameOver_Events",
+			"Title Screen Sheet",
+			"Restart_Events",
+			"HowToPlay_Events",
+			"timeattack+playstate events",
+			"Credits_Events"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "Scream-Medium-B1-www.fesliyanstudios.com_1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 722396525340354
+				},
+				{
+					"name": "Body-Thud-1-www.fesliyanstudios.com.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 404833172951951
+				},
+				{
+					"name": "Player_ScreamFall.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 206112085827502
+				},
+				{
+					"name": "Player_HitTree.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 412658577682370
+				},
+				{
+					"name": "Player_HitTree2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 359010147578958
+				},
+				{
+					"name": "SNOWSK-1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 139259756962832
+				},
+				{
+					"name": "Windy-Snow-Storm-Blizzard-www.fesliyanstudios.com.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 945103379032896
+				},
+				{
+					"name": "Rick_Astley_-_Never_Gonna_Give_You_Up_Piano_Cover_Tutorial_by_LittleTranscriber (1).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 466626245574479
+				},
+				{
+					"name": "Hit_hurt 2 (2).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 598539344371534
+				},
+				{
+					"name": "GameOver_ScreenSound2 (1).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 892763106765983
+				},
+				{
+					"name": "GameOver_Cheering.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 635272745825003
+				},
+				{
+					"name": "GameMusic.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 266771216887409
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [
+				{
+					"name": "GameOver2.webm",
+					"type": "video/webm",
+					"sid": 989965802742343
+				},
+				{
+					"name": "GameOver1.webm",
+					"type": "video/webm",
+					"sid": 558657688989497
+				},
+				{
+					"name": "Turn_GIF.webm",
+					"type": "video/webm",
+					"sid": 855493412171231
+				},
+				{
+					"name": "SpaceDown_GIF.webm",
+					"type": "video/webm",
+					"sid": 906217106761120
+				},
+				{
+					"name": "Flags_GIF.webm",
+					"type": "video/webm",
+					"sid": 548310721735841
+				}
+			],
+			"subfolders": []
+		},
+		"font": {
+			"items": [
+				{
+					"name": "BarcadeNoBar-mzD9.otf",
+					"type": "application/font-sfnt",
+					"sid": 656498098454710
+				},
+				{
+					"name": "Barcade-R4LM.otf",
+					"type": "application/font-sfnt",
+					"sid": 838444671540038
+				}
+			],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 356069904750663,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 555436394252579,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 762837909342163,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 146202689478578,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 961509374132561,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 375612185741683,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 721557347255208,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": true,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "low",
+		"viewportFit": "cover",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useHighDpi": true,
+		"orientations": "portrait",
+		"enableWebGL": true,
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "nearest",
+		"downscaling": "medium",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": false,
+		"clearBackground": true,
+		"enhancedAccelerationPrecision": true,
+		"cordovaiOSScheme": "app"
+	},
+	"viewportWidth": 720,
+	"viewportHeight": 1280,
+	"firstLayout": "TitleScreen"
+}

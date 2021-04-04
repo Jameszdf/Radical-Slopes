@@ -1,0 +1,55 @@
+{
+	"name": "Tall_Rock2",
+	"plugin-id": "Sprite",
+	"sid": 560436383026595,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 31,
+						"height": 58,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1276638,
+						"collisionPoly": {
+							"points": [
+								0.5145787345657296,
+								0.5375621639153146,
+								0.8294221479029603,
+								0.6026008481731537,
+								0.9074154028300553,
+								0.8053781408053804,
+								0.48109288154747193,
+								0.9542669240965669,
+								0.29928474964382407,
+								0.9524389954152637,
+								0.07187069896137446,
+								0.8314560097758323,
+								0.176307234044658,
+								0.5974170301953268
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 779174004420670,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

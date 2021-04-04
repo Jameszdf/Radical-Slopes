@@ -1,0 +1,63 @@
+{
+	"name": "GameTitle",
+	"plugin-id": "Sprite",
+	"sid": 488464337065288,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 838332473183485
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 814,
+						"height": 61,
+						"originX": 0.4961754207037226,
+						"originY": 0.4751958224543081,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4014498,
+						"collisionPoly": {
+							"points": [
+								0.26466088730239673,
+								0.0731070496083551,
+								0.4961754207037226,
+								0.05221932114882506,
+								0.7363590005099439,
+								0.02610966057441253,
+								0.9755226925038246,
+								0.4751958224543081,
+								0.7006629270780215,
+								0.7389033942558747,
+								0.4961754207037226,
+								0.9477806788511749,
+								0.282508924018358,
+								0.783289817232376,
+								0.021927587965323816,
+								0.4751958224543081
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 351852470507896,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

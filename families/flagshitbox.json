@@ -1,0 +1,14 @@
+{
+	"name": "FlagsHitbox",
+	"plugin-id": "Sprite",
+	"sid": 747112202790979,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Speed_Gap",
+		"Speed_Gap2",
+		"Speed_Gap3",
+		"Speed_Gap4"
+	]
+}

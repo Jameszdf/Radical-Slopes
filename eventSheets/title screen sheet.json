@@ -1,0 +1,491 @@
+{
+	"name": "Title Screen Sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "ScrollingSpeed2",
+			"type": "number",
+			"initialValue": "150",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 497811881652529
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 490477995512681
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "DescentTitle",
+					"sid": 787712583919411,
+					"disabled": true,
+					"parameters": {
+						"y": "DescentTitle.Y-ScrollingSpeed*dt"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Snow",
+					"sid": 645904909005264,
+					"parameters": {
+						"y": "Snow.Y-ScrollingSpeed2*dt"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Ground",
+					"sid": 360481815074660,
+					"parameters": {
+						"y": "Ground.Y-ScrollingSpeed2*dt"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "SnowWithDust",
+					"sid": 534238961048129,
+					"parameters": {
+						"y": "Ground.Y-ScrollingSpeed2*dt"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Shadow",
+					"sid": 941757603113597,
+					"parameters": {
+						"object": "Ground",
+						"image-point-optional": "1"
+					}
+				}
+			],
+			"sid": 880401125699805
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "STARTGAME",
+					"sid": 912419990666990
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 450588853482814,
+					"parameters": {
+						"layout": "Playstate"
+					}
+				}
+			],
+			"sid": 700141651450285,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "HOWTOPLAY",
+					"sid": 713732727686363
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 254705668363402,
+					"parameters": {
+						"layout": "HowToPlay"
+					}
+				}
+			],
+			"sid": 402090937343192,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "Snow",
+					"sid": 396055083069004,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "-2755"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "Snow",
+					"sid": 636574422021417,
+					"parameters": {
+						"y": "2752"
+					}
+				}
+			],
+			"sid": 243813710814979
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "Ground",
+					"sid": 809393140158542,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "-270"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "Ground",
+					"sid": 476560527570893,
+					"parameters": {
+						"y": "1700"
+					}
+				}
+			],
+			"sid": 178374564739945
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Buttons_Options",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Info_Button",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 395888927421979,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "Info_Button"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 169787267904101,
+									"parameters": {
+										"layout": "Credits"
+									}
+								}
+							],
+							"sid": 861646247349406
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-any-touch-end",
+									"objectClass": "Touch",
+									"sid": 986522225959771
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 149722188547680,
+									"parameters": {
+										"object": "Info_Button"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 568634871600085,
+									"parameters": {
+										"layout": "Credits"
+									}
+								}
+							],
+							"sid": 942243240576042
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 491054734557656,
+									"parameters": {
+										"object": "Info_Button"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "Info_Button",
+									"sid": 937961837400074,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 938094699844111
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 999241812428981,
+									"parameters": {
+										"object": "Info_Button"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "Info_Button",
+									"sid": 535589784819459,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 921640593618219
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 319729564432546,
+									"parameters": {
+										"object": "Info_Button"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 524636329008843,
+									"parameters": {
+										"object": "Info_Button"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "Info_Button",
+									"sid": 135776627355830,
+									"parameters": {
+										"opacity": "100"
+									}
+								}
+							],
+							"sid": 841625052159989
+						}
+					],
+					"sid": 149228480260333
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Play_Button",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 479277663039073,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "Play_Sprite"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 502157341009629,
+									"parameters": {
+										"layout": "HowToPlay"
+									}
+								}
+							],
+							"sid": 297177148247044
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-any-touch-end",
+									"objectClass": "Touch",
+									"sid": 490660610360073
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 277904756786318,
+									"parameters": {
+										"object": "Play_Sprite"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 465029202095625,
+									"parameters": {
+										"layout": "HowToPlay"
+									}
+								}
+							],
+							"sid": 699954807186618
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 157365154633295,
+									"parameters": {
+										"object": "Play_Sprite"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "Play_Sprite",
+									"sid": 835023284975732,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 545111685580381
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 851704071612545,
+									"parameters": {
+										"object": "Play_Sprite"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "Play_Sprite",
+									"sid": 957535215002082,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 670765142666638
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 100333917465113,
+									"parameters": {
+										"object": "Play_Sprite"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 132626606270101,
+									"parameters": {
+										"object": "Play_Sprite"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "Play_Sprite",
+									"sid": 383029337158085,
+									"parameters": {
+										"opacity": "100"
+									}
+								}
+							],
+							"sid": 156675116773980
+						}
+					],
+					"sid": 915930983986278
+				}
+			],
+			"sid": 280248644835299
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 476297390032834
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 604811503901343,
+					"parameters": {
+						"tag": "\"Cheer\""
+					}
+				}
+			],
+			"sid": 187453909882952,
+			"disabled": true
+		}
+	],
+	"sid": 447695396580231
+}

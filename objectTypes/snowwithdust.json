@@ -1,0 +1,51 @@
+{
+	"name": "SnowWithDust",
+	"plugin-id": "Sprite",
+	"sid": 695841358343842,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 103,
+						"height": 395,
+						"originX": 1.9271844660194175,
+						"originY": 0.17468354430379746,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4650445,
+						"collisionPoly": {
+							"points": [
+								0.9223300970873787,
+								0.012658227848101266,
+								0.9514563106796117,
+								0.5265822784810127,
+								0.9514563106796117,
+								0.17468354430379746,
+								0.019417475728155338,
+								0.5696202531645571,
+								0.019417475728155338,
+								0.17468354430379746
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 550378206539917,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

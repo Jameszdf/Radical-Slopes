@@ -1,0 +1,20 @@
+{
+	"name": "Credits_Title",
+	"plugin-id": "Text",
+	"sid": 192392634378481,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 241612465737168
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 753361332951232
+		}
+	],
+	"effectTypes": []
+}

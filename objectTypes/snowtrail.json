@@ -1,0 +1,42 @@
+{
+	"name": "SnowTrail",
+	"plugin-id": "Sprite",
+	"sid": 199816986906605,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "multiply",
+			"name": "Multiply"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 140,
+						"height": 140,
+						"originX": 0.5714285714285714,
+						"originY": 0.55,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2770433,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 509195456265518,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 30
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "BarelyClippedSpaceText",
+	"plugin-id": "Text",
+	"sid": 342018888169355,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 921268409074436
+		}
+	],
+	"effectTypes": []
+}

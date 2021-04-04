@@ -1,0 +1,16 @@
+{
+	"name": "TimerText",
+	"plugin-id": "Text",
+	"sid": 317648665667716,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "TimeLeft",
+			"type": "number",
+			"desc": "",
+			"sid": 302293494481823
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,58 @@
+{
+	"name": "snowflake",
+	"plugin-id": "Sprite",
+	"sid": 298060074885300,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 624604189870753
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine2",
+			"sid": 745393246165165
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 857805039551158
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine3",
+			"sid": 613358505226203
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 13,
+						"height": 13,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8289800,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 555608839854086,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

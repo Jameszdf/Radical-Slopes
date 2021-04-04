@@ -1,0 +1,49 @@
+{
+	"name": "Ramp",
+	"plugin-id": "Sprite",
+	"sid": 727308144787665,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 230,
+						"height": 181,
+						"originX": 0.4521739130434783,
+						"originY": 0.30386740331491713,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7154587,
+						"collisionPoly": {
+							"points": [
+								0.9956521739130435,
+								0.994475138121547,
+								0,
+								0.994475138121547,
+								0,
+								0,
+								0.9956521739130435,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 550975649710318,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
