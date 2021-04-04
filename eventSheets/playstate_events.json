@@ -2255,7 +2255,8 @@
 							}
 						}
 					],
-					"sid": 787402947006365
+					"sid": 787402947006365,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2384,6 +2385,131 @@
 						}
 					],
 					"sid": 146258418073805
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "NewLevel1",
+							"sid": 515847197679388,
+							"parameters": {
+								"comparison": 3,
+								"y-co-ordinate": "-5700"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel1",
+							"sid": 247809465836682,
+							"parameters": {
+								"y": "1500"
+							}
+						}
+					],
+					"sid": 352024439765200
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "NewLevel2",
+							"sid": 280253578050843,
+							"parameters": {
+								"comparison": 3,
+								"y-co-ordinate": "-5700"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel2",
+							"sid": 272519011599659,
+							"parameters": {
+								"y": "1500"
+							}
+						}
+					],
+					"sid": 250100692582170
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "NewLevel3",
+							"sid": 800857884572609,
+							"parameters": {
+								"comparison": 3,
+								"y-co-ordinate": "-5700"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel3",
+							"sid": 486836511697182,
+							"parameters": {
+								"y": "1500"
+							}
+						}
+					],
+					"sid": 724384481650399
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "NewLevel4",
+							"sid": 465288724145480,
+							"parameters": {
+								"comparison": 3,
+								"y-co-ordinate": "-5700"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel4",
+							"sid": 620132452375961,
+							"parameters": {
+								"y": "1500"
+							}
+						}
+					],
+					"sid": 704432286699946
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "NewLevel5",
+							"sid": 866369905768195,
+							"parameters": {
+								"comparison": 3,
+								"y-co-ordinate": "-5700"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "NewLevel5",
+							"sid": 824778680639634,
+							"parameters": {
+								"y": "1500"
+							}
+						}
+					],
+					"sid": 989105454372409
 				}
 			],
 			"sid": 212347896851286

@@ -216,14 +216,6 @@
 		},
 		{
 			"type": "effect",
-			"id": "sphere",
-			"name": "Sphere",
-			"author": "Brad Larson",
-			"version": "r241",
-			"bundled": false
-		},
-		{
-			"type": "effect",
 			"id": "multiply",
 			"name": "Multiply",
 			"author": "Scirra",

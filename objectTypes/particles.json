@@ -13,10 +13,6 @@
 		{
 			"effectId": "hexpixellate",
 			"name": "HexagonalPixellate"
-		},
-		{
-			"effectId": "sphere",
-			"name": "Sphere"
 		}
 	],
 	"image": {

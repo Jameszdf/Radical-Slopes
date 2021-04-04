@@ -11439,22 +11439,7 @@
 				}
 			],
 			"sid": 700050108926436,
-			"effectTypes": [
-				{
-					"effectId": "pulse",
-					"name": "Pulse",
-					"instance": {
-						"parameters": {
-							"intensity": 0.2,
-							"lighting": 0.5,
-							"speed": 3,
-							"frequency": 30,
-							"center-x": 0.5,
-							"center-y": 0.5
-						}
-					}
-				}
-			],
+			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
 				1,
@@ -11518,7 +11503,7 @@
 						}
 					},
 					"world": {
-						"x": 455,
+						"x": 360,
 						"y": 38.684655973792445,
 						"width": 247.943116,
 						"height": 68.428966,
@@ -11599,13 +11584,6 @@
 							"parameters": {
 								"scale": 18
 							}
-						},
-						"Sphere": {
-							"parameters": {
-								"radius": 0.33,
-								"refractive-index": 0.25,
-								"progress": 0.95
-							}
 						}
 					},
 					"world": {
@@ -11677,7 +11655,7 @@
 						}
 					},
 					"world": {
-						"x": 455,
+						"x": 360,
 						"y": 39.0480220715265,
 						"width": 247.94311552664044,
 						"height": 68.42896612117246,
@@ -11825,7 +11803,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 657,
+						"x": 564,
 						"y": 5,
 						"width": 156,
 						"height": 66,
