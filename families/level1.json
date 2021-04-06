@@ -8,7 +8,6 @@
 	"members": [
 		"Ground",
 		"SeansWierdThing",
-		"SnowTrail",
 		"character_respawn_point",
 		"Shadow"
 	]

@@ -285,6 +285,7 @@
 							"id": "set-y",
 							"objectClass": "Level1",
 							"sid": 472084947699632,
+							"disabled": true,
 							"parameters": {
 								"y": "Level1.Y-ScrollingSpeed*dt"
 							}
@@ -376,6 +377,14 @@
 							"parameters": {
 								"y": "snowflake.Y-ScrollingSpeed*dt"
 							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "SnowTrail",
+							"sid": 164769519804867,
+							"parameters": {
+								"y": "SnowTrail.Y-ScrollingSpeed*dt"
+							}
 						}
 					],
 					"sid": 638010640823290
@@ -411,6 +420,7 @@
 							"id": "set-y",
 							"objectClass": "Level1",
 							"sid": 292104014726327,
+							"disabled": true,
 							"parameters": {
 								"y": "Level1.Y-DownSpeed*dt"
 							}
@@ -502,6 +512,14 @@
 							"parameters": {
 								"y": "snowflake.Y-DownSpeed*dt"
 							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "SnowTrail",
+							"sid": 556430279924642,
+							"parameters": {
+								"y": "SnowTrail.Y-DownSpeed*dt"
+							}
 						}
 					],
 					"sid": 421149765351220
@@ -534,6 +552,7 @@
 							"id": "set-y",
 							"objectClass": "Level1",
 							"sid": 567516764822403,
+							"disabled": true,
 							"parameters": {
 								"y": "Level1.Y-DownSpeed*dt"
 							}
@@ -624,6 +643,14 @@
 							"sid": 501913961962148,
 							"parameters": {
 								"y": "snowflake.Y-DownSpeed*dt"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "SnowTrail",
+							"sid": 126566692238944,
+							"parameters": {
+								"y": "SnowTrail.Y-DownSpeed*dt"
 							}
 						}
 					],
@@ -1802,9 +1829,9 @@
 						{
 							"id": "set-angle",
 							"objectClass": "Player_Particles2",
-							"sid": 565470156113514,
+							"sid": 132889552016720,
 							"parameters": {
-								"angle": "291"
+								"angle": "245"
 							}
 						}
 					],
@@ -1878,9 +1905,9 @@
 						{
 							"id": "set-angle",
 							"objectClass": "Player_Particles2",
-							"sid": 207009806806410,
+							"sid": 881589364328642,
 							"parameters": {
-								"angle": "291"
+								"angle": "245"
 							}
 						}
 					],
