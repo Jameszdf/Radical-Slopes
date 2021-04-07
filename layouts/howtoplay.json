@@ -7161,8 +7161,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 64,
-						"y": 552,
+						"x": 63.5,
+						"y": 392,
 						"width": 593,
 						"height": 80.05357427450645,
 						"originX": 0,
@@ -7204,7 +7204,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 61.5,
-						"y": 827,
+						"y": 566,
 						"width": 597,
 						"height": 121,
 						"originX": 0,
@@ -7232,10 +7232,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 182,
-						"y": 1147,
-						"width": 196.319468,
-						"height": 147.239601,
+						"x": 183,
+						"y": 1125,
+						"width": 339.385573,
+						"height": 254.53918,
 						"originX": 0.5,
 						"originY": 0.4881516587677725,
 						"color": [
@@ -7261,10 +7261,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 538,
-						"y": 1147,
-						"width": 196.319468,
-						"height": 147.239601,
+						"x": 535,
+						"y": 1124,
+						"width": 339.3855729753447,
+						"height": 254.53917973150854,
 						"originX": 0.5,
 						"originY": 0.4881516587677725,
 						"color": [
@@ -7304,7 +7304,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 108,
-						"y": 301,
+						"y": 229,
 						"width": 504,
 						"height": 45,
 						"originX": 0,
@@ -7405,6 +7405,48 @@
 						"y": 74,
 						"width": 480,
 						"height": 41.982631012086586,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.95
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PassingtreesInt",
+					"properties": {
+						"text": "Barely missing trees awards bonus points",
+						"enable-bbcode": true,
+						"font": "BarcadeNoBar-mzD9",
+						"size": 25,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 112,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 61.5,
+						"y": 771,
+						"width": 597,
+						"height": 121,
 						"originX": 0,
 						"originY": 0,
 						"color": [

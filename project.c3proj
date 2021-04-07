@@ -374,7 +374,9 @@
 			"Tree15",
 			"Tall_Rock5",
 			"PlayAgainSprite",
-			"BackToTitle"
+			"BackToTitle",
+			"HighscoreTitle",
+			"PassingtreesInt"
 		],
 		"subfolders": []
 	},

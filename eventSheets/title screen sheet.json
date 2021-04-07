@@ -493,6 +493,80 @@
 			],
 			"sid": 187453909882952,
 			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 365525294636834
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "HighscoreTitle",
+					"sid": 413933475707732,
+					"parameters": {
+						"text": "\"Highscore: \"&round(Exbestscore)"
+					}
+				}
+			],
+			"sid": 734718697476705
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 400619273507286,
+					"parameters": {
+						"variable": "Exbestscore",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "HighscoreTitle",
+					"sid": 542701899825682,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 869651085887566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 791717552221799,
+					"parameters": {
+						"variable": "Exbestscore",
+						"comparison": 0,
+						"value": "0"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "HighscoreTitle",
+					"sid": 219988201832700,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 443849662756872
 		}
 	],
 	"sid": 447695396580231
