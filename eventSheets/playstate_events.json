@@ -1665,6 +1665,36 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
+							"sid": 372530642639846,
+							"parameters": {
+								"variable": "IsMovingLeft"
+							}
+						},
+						{
+							"id": "is-in-touch",
+							"objectClass": "Touch",
+							"sid": 988076262027055
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 438623159790918,
+							"parameters": {
+								"animation": "\"straight left\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 770975756873820
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
 							"sid": 970301299727211,
 							"parameters": {
 								"variable": "IsMOvingRight"
@@ -1725,6 +1755,36 @@
 						}
 					],
 					"sid": 787139679403352
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 241092278827190,
+							"parameters": {
+								"variable": "IsMOvingRight"
+							}
+						},
+						{
+							"id": "is-in-touch",
+							"objectClass": "Touch",
+							"sid": 640992644210251
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 713724757702099,
+							"parameters": {
+								"animation": "\"straight right\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 449099322450907
 				},
 				{
 					"eventType": "block",
