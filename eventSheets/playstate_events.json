@@ -1617,14 +1617,47 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 295148337691104,
+							"sid": 185377220752602,
 							"parameters": {
-								"animation": "\"right\"",
+								"animation": "\"Left\"",
 								"from": "beginning"
 							}
 						}
 					],
 					"sid": 786922747945103
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 120751820259194,
+							"parameters": {
+								"variable": "IsMovingLeft"
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 647689941193622,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 837820283183759,
+							"parameters": {
+								"animation": "\"straight left\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 341685370603802
 				},
 				{
 					"eventType": "block",
@@ -1666,6 +1699,39 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
+							"sid": 875236588181162,
+							"parameters": {
+								"variable": "IsMOvingRight"
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 279066110197782,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 989836940562149,
+							"parameters": {
+								"animation": "\"straight right\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 787139679403352
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
 							"sid": 595234075143270,
 							"parameters": {
 								"variable": "IsMovingLeft"
@@ -1686,6 +1752,7 @@
 							"id": "set-mirrored",
 							"objectClass": "Player",
 							"sid": 956386392105529,
+							"disabled": true,
 							"parameters": {
 								"state": "mirrored"
 							}
@@ -1735,6 +1802,7 @@
 							"id": "set-mirrored",
 							"objectClass": "Player",
 							"sid": 875075983708249,
+							"disabled": true,
 							"parameters": {
 								"state": "not-mirrored"
 							}
@@ -1784,6 +1852,7 @@
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 258177191895059,
+							"disabled": true,
 							"parameters": {
 								"animation": "\"striaght\"",
 								"from": "beginning"
@@ -1860,6 +1929,7 @@
 							"id": "set-animation",
 							"objectClass": "Player",
 							"sid": 931560080016841,
+							"disabled": true,
 							"parameters": {
 								"animation": "\"striaght\"",
 								"from": "beginning"

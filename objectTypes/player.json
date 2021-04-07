@@ -46,14 +46,14 @@
 			{
 				"frames": [
 					{
-						"width": 75,
-						"height": 120,
+						"width": 219,
+						"height": 326,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2810259,
+						"imageSpriteId": 1790481,
 						"collisionPoly": {
 							"points": [
 								0.3244443905898949,
@@ -180,24 +180,24 @@
 			{
 				"frames": [
 					{
-						"width": 43,
-						"height": 122,
+						"width": 156,
+						"height": 338,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1703615,
+						"imageSpriteId": 6096487,
 						"collisionPoly": {
 							"points": [
-								0.339080547464305,
-								0.5686274260477305,
-								0.6494250242737517,
-								0.5751633986928105,
-								0.6379307714001885,
-								0.8267974105535771,
-								0.31609195402298856,
-								0.8235294865626914
+								0.37391127663097173,
+								0.5702107285625234,
+								0.6767061741134948,
+								0.5655653495064206,
+								0.7500100983232649,
+								0.8093579689855301,
+								0.46754678174734754,
+								0.8156360878940528
 							]
 						},
 						"useCollisionPoly": true,
@@ -247,7 +247,151 @@
 					}
 				],
 				"sid": 219750454505239,
-				"name": "striaght",
+				"name": "straight right",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 219,
+						"height": 319,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9435600,
+						"collisionPoly": {
+							"points": [
+								0.4213073929930047,
+								0.786309317936973,
+								0.29836608786988095,
+								0.6853171832977779,
+								0.45973858303493975,
+								0.5910714088924347,
+								0.6755556094101052,
+								0.6071427322569347
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.7333333333333334,
+								"y": 0.48333333333333334
+							},
+							{
+								"name": "Image Point 2",
+								"x": 0.8666666666666667,
+								"y": 0.375
+							},
+							{
+								"name": "Image Point 3",
+								"x": 0.8266666666666667,
+								"y": 0.4083333333333333
+							},
+							{
+								"name": "Image Point 4",
+								"x": 0.43999999999999995,
+								"y": 1.5
+							},
+							{
+								"name": "Image Point 5",
+								"x": 0.48,
+								"y": 0.675
+							},
+							{
+								"name": "Image Point 6",
+								"x": 0.4666666666666667,
+								"y": 0.041666666666666664
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 611426434575164,
+				"name": "Left",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 8
+			},
+			{
+				"frames": [
+					{
+						"width": 156,
+						"height": 337,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3774262,
+						"collisionPoly": {
+							"points": [
+								0.5324532182526525,
+								0.8156360878940528,
+								0.24998990167673507,
+								0.8093579689855301,
+								0.32329382588650524,
+								0.5655653495064206,
+								0.6260887233690282,
+								0.5702107285625234
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.7906976744186046,
+								"y": 0.5491803278688525
+							},
+							{
+								"name": "Image Point 2",
+								"x": 0.5348837209302326,
+								"y": 1.0819672131147542
+							},
+							{
+								"name": "Image Point 3",
+								"x": 0.4651162790697675,
+								"y": 0.29508196721311475
+							},
+							{
+								"name": "Image Point 4",
+								"x": 0.4883720930232558,
+								"y": 1.4754098360655739
+							},
+							{
+								"name": "Image Point 5",
+								"x": 0.5116279069767442,
+								"y": 0.680327868852459
+							},
+							{
+								"name": "Image Point 6",
+								"x": 0.4418604651162791,
+								"y": 0.06557377049180328
+							},
+							{
+								"name": "Image Point 7",
+								"x": 0.9767441860465116,
+								"y": 0.01639344262295082
+							},
+							{
+								"name": "Image Point 8",
+								"x": 0.023255813953488413,
+								"y": 0.01639344262295082
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 526333036972008,
+				"name": "straight left",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
