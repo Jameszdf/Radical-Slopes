@@ -678,9 +678,9 @@
 				{
 					"id": "set-source",
 					"objectClass": "Cutscene",
-					"sid": 378876186679861,
+					"sid": 564017232634812,
 					"parameters": {
-						"webm-source": "\"GameOver2.webm\"",
+						"webm-source": "\"Ver2.webm\"",
 						"ogg-theora-source": "\"\"",
 						"h264-source": "\"\""
 					}
@@ -730,9 +730,9 @@
 				{
 					"id": "set-source",
 					"objectClass": "Cutscene",
-					"sid": 487725606163008,
+					"sid": 173230780613066,
 					"parameters": {
-						"webm-source": "\"GameOver1.webm\"",
+						"webm-source": "\"Ver1.webm\"",
 						"ogg-theora-source": "\"\"",
 						"h264-source": "\"\""
 					}
