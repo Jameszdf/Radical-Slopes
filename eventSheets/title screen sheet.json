@@ -62,6 +62,14 @@
 						"object": "Ground",
 						"image-point-optional": "1"
 					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Trees",
+					"sid": 628758675521796,
+					"parameters": {
+						"y": "Trees.Y-ScrollingSpeed2*dt"
+					}
 				}
 			],
 			"sid": 880401125699805
@@ -140,21 +148,21 @@
 			"conditions": [
 				{
 					"id": "compare-y",
-					"objectClass": "Ground",
-					"sid": 809393140158542,
+					"objectClass": "Trees",
+					"sid": 434129844034965,
 					"parameters": {
 						"comparison": 3,
-						"y-co-ordinate": "-270"
+						"y-co-ordinate": "-70"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "set-y",
-					"objectClass": "Ground",
-					"sid": 476560527570893,
+					"objectClass": "Trees",
+					"sid": 195035200342347,
 					"parameters": {
-						"y": "1700"
+						"y": "1360"
 					}
 				}
 			],
