@@ -517,11 +517,11 @@
 							}
 						},
 						{
-							"id": "set-opacity",
-							"objectClass": "PressSpace",
-							"sid": 920320711816696,
+							"id": "set-visible",
+							"objectClass": "PlayAgainSprite",
+							"sid": 685503231303140,
 							"parameters": {
-								"opacity": "100"
+								"visibility": "visible"
 							}
 						},
 						{
@@ -544,11 +544,11 @@
 							}
 						},
 						{
-							"id": "set-opacity",
-							"objectClass": "BackSpace",
-							"sid": 537827170854040,
+							"id": "set-visible",
+							"objectClass": "BackToTitle",
+							"sid": 792464482658340,
 							"parameters": {
-								"opacity": "100"
+								"visibility": "visible"
 							}
 						},
 						{
@@ -826,7 +826,8 @@
 					}
 				}
 			],
-			"sid": 413349534794546
+			"sid": 413349534794546,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -1343,6 +1344,330 @@
 				}
 			],
 			"sid": 935936012991412
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Buttons",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Back",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 685458391265042,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "BackToTitle"
+									}
+								},
+								{
+									"id": "is-visible",
+									"objectClass": "BackToTitle",
+									"sid": 657969605046455
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 235788511202773,
+									"parameters": {
+										"layout": "TitleScreen"
+									}
+								}
+							],
+							"sid": 238239950265952
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-any-touch-end",
+									"objectClass": "Touch",
+									"sid": 166155774324754
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 791504726539104,
+									"parameters": {
+										"object": "BackToTitle"
+									}
+								},
+								{
+									"id": "is-visible",
+									"objectClass": "BackToTitle",
+									"sid": 353637771818042
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 811070003828797,
+									"parameters": {
+										"layout": "TitleScreen"
+									}
+								}
+							],
+							"sid": 322772229117799
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 431374574241140,
+									"parameters": {
+										"object": "BackToTitle"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "BackToTitle",
+									"sid": 805160942874938,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 664703255465885
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 253159701475013,
+									"parameters": {
+										"object": "BackToTitle"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "BackToTitle",
+									"sid": 824623059605362,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 132467468911809
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 741067904467777,
+									"parameters": {
+										"object": "BackToTitle"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 353846096794360,
+									"parameters": {
+										"object": "BackToTitle"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "BackToTitle",
+									"sid": 240864976954683,
+									"parameters": {
+										"opacity": "100"
+									}
+								}
+							],
+							"sid": 357073731196016
+						}
+					],
+					"sid": 125749927588446
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Play Again",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 944430778550883,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "PlayAgainSprite"
+									}
+								},
+								{
+									"id": "is-visible",
+									"objectClass": "PlayAgainSprite",
+									"sid": 859868664095811
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 827051564355616,
+									"parameters": {
+										"layout": "Playstate"
+									}
+								}
+							],
+							"sid": 625780771605081
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-any-touch-end",
+									"objectClass": "Touch",
+									"sid": 215792868712865
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 327051538559419,
+									"parameters": {
+										"object": "PlayAgainSprite"
+									}
+								},
+								{
+									"id": "is-visible",
+									"objectClass": "PlayAgainSprite",
+									"sid": 925915458119738
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 517373118694036,
+									"parameters": {
+										"layout": "Playstate"
+									}
+								}
+							],
+							"sid": 699520624436237
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 465023374915341,
+									"parameters": {
+										"object": "PlayAgainSprite"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "PlayAgainSprite",
+									"sid": 243856178293768,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 680218829285489
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 976427981775608,
+									"parameters": {
+										"object": "PlayAgainSprite"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "PlayAgainSprite",
+									"sid": 427979125904764,
+									"parameters": {
+										"opacity": "50"
+									}
+								}
+							],
+							"sid": 400805978346554
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "cursor-is-over-object",
+									"objectClass": "Mouse",
+									"sid": 718847833897119,
+									"parameters": {
+										"object": "PlayAgainSprite"
+									},
+									"isInverted": true
+								},
+								{
+									"id": "is-touching-object",
+									"objectClass": "Touch",
+									"sid": 719790928896360,
+									"parameters": {
+										"object": "PlayAgainSprite"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-opacity",
+									"objectClass": "PlayAgainSprite",
+									"sid": 707449543393826,
+									"parameters": {
+										"opacity": "100"
+									}
+								}
+							],
+							"sid": 621271106618342
+						}
+					],
+					"sid": 263864219802658
+				}
+			],
+			"sid": 774453878354292
 		}
 	],
 	"sid": 945073889186405

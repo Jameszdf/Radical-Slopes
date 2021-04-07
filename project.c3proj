@@ -372,7 +372,9 @@
 			"Tree13",
 			"Tree14",
 			"Tree15",
-			"Tall_Rock5"
+			"Tall_Rock5",
+			"PlayAgainSprite",
+			"BackToTitle"
 		],
 		"subfolders": []
 	},
