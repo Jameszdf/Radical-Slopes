@@ -1,0 +1,27 @@
+{
+	"name": "bar",
+	"plugin-id": "TiledBg",
+	"sid": 343796259430033,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Progress_bar",
+			"type": "number",
+			"desc": "",
+			"sid": 732371944013826
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2098249,
+		"useCollisionPoly": true
+	}
+}

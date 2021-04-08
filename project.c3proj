@@ -376,7 +376,8 @@
 			"PlayAgainSprite",
 			"BackToTitle",
 			"HighscoreTitle",
-			"PassingtreesInt"
+			"PassingtreesInt",
+			"bar"
 		],
 		"subfolders": []
 	},

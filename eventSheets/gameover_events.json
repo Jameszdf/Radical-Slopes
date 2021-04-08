@@ -1670,6 +1670,82 @@
 				}
 			],
 			"sid": 774453878354292
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 665712002739625,
+					"parameters": {
+						"key": 32
+					}
+				},
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 795834733257041
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "bar",
+					"sid": 579541838390956,
+					"parameters": {
+						"instance-variable": "Progress_bar",
+						"value": "0.01"
+					}
+				}
+			],
+			"sid": 704765635736775
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 477179268279671
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "bar",
+					"sid": 549919263166120,
+					"parameters": {
+						"width": "Self.ImageWidth*bar.Progress_bar"
+					}
+				}
+			],
+			"sid": 548774296159140
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-width",
+					"objectClass": "bar",
+					"sid": 387608189120472,
+					"parameters": {
+						"comparison": 5,
+						"width": "200"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 557705669130679,
+					"parameters": {
+						"layout": "Playstate"
+					}
+				}
+			],
+			"sid": 316731666621897
 		}
 	],
 	"sid": 945073889186405
