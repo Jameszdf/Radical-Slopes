@@ -5255,6 +5255,86 @@
 			],
 			"sid": 303014003012822,
 			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 832955051006937,
+					"parameters": {
+						"variable": "ScrollingSpeed",
+						"comparison": 2,
+						"value": "600"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "speed",
+					"sid": 757217108354979,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 692220584763803
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 455879158598444,
+					"parameters": {
+						"variable": "ScrollingSpeed",
+						"comparison": 5,
+						"value": "600"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "speed",
+					"sid": 622029830732326,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 399097023970988
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 846446322455125
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "speed",
+					"sid": 118394063243754,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 913759742916203
 		}
 	],
 	"sid": 785976527585107

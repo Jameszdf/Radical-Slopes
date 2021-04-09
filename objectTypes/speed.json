@@ -1,0 +1,225 @@
+{
+	"name": "speed",
+	"plugin-id": "Sprite",
+	"sid": 940706340626167,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 595401463388463
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 45,
+						"height": 68,
+						"originX": 0.4888888888888889,
+						"originY": 0.6617647058823529,
+						"originalSource": "C:\\Users\\User\\Downloads\\speed-1.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3954077,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.9117647058823529,
+								0.8222222222222222,
+								0.20588235294117646,
+								0.6888888888888889,
+								0.9117647058823529,
+								0.5,
+								0.9705882352941176,
+								0.28888888888888886,
+								0.9117647058823529,
+								0.15555555555555556,
+								0.20588235294117646
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4888888888888889,
+								"y": 0.7941176470588235
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 45,
+						"height": 68,
+						"originX": 0.5111111111111111,
+						"originY": 0.8088235294117647,
+						"originalSource": "C:\\Users\\User\\Downloads\\speed-2.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 907745,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.9117647058823529,
+								0.6444444444444445,
+								0.8823529411764706,
+								0.5,
+								0.9705882352941176,
+								0.33333333333333337,
+								0.8823529411764706
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4888888888888889,
+								"y": 0.7941176470588235
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 45,
+						"height": 69,
+						"originX": 0.4888888888888889,
+						"originY": 0.6521739130434783,
+						"originalSource": "C:\\Users\\User\\Downloads\\speed-3.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3525989,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.8985507246376812,
+								0.7777777777777778,
+								0.2028985507246377,
+								0.6666666666666666,
+								0.8840579710144928,
+								0.5,
+								0.9710144927536232,
+								0.3111111111111111,
+								0.8840579710144928,
+								0.2,
+								0.2028985507246377
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4888888888888889,
+								"y": 0.782608695652174
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 45,
+						"height": 65,
+						"originX": 0.4888888888888889,
+						"originY": 0.6923076923076923,
+						"originalSource": "C:\\Users\\User\\Downloads\\speed-4.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 206072,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.4461538461538462,
+								0.6888888888888889,
+								0.9076923076923077,
+								0.5,
+								0.9692307692307692,
+								0.28888888888888886,
+								0.9076923076923077
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4888888888888889,
+								"y": 0.8307692307692308
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 45,
+						"height": 65,
+						"originX": 0.4888888888888889,
+						"originY": 0.6923076923076923,
+						"originalSource": "C:\\Users\\User\\Downloads\\speed-5.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8001669,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.26153846153846155,
+								0.6666666666666666,
+								0.8923076923076924,
+								0.5,
+								0.9692307692307692,
+								0.3111111111111111,
+								0.8923076923076924
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4888888888888889,
+								"y": 0.8307692307692308
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 45,
+						"height": 83,
+						"originX": 0.4888888888888889,
+						"originY": 0.7710843373493976,
+						"originalSource": "C:\\Users\\User\\Downloads\\speed-6.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8169928,
+						"collisionPoly": {
+							"points": [
+								0.5,
+								0.9036144578313253,
+								0.6666666666666666,
+								0.891566265060241,
+								0.5,
+								0.9759036144578314,
+								0.3111111111111111,
+								0.891566265060241
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.4888888888888889,
+								"y": 0.8313253012048193
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 652696266549602,
+				"name": "speed",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 23
+			}
+		],
+		"subfolders": []
+	}
+}

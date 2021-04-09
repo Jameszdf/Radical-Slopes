@@ -191,6 +191,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pin",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "hsladjust",
 			"name": "Adjust HSL",
@@ -379,7 +387,8 @@
 			"PassingtreesInt",
 			"bar",
 			"SkipBar",
-			"SkipBarBG"
+			"SkipBarBG",
+			"speed"
 		],
 		"subfolders": []
 	},

@@ -11404,6 +11404,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "speed",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "speed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1197,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 324,
+						"y": 275,
+						"width": 74.6046511627907,
+						"height": 88,
+						"originX": 0.4888888888888889,
+						"originY": 0.6617647058823529,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 700050108926436,
