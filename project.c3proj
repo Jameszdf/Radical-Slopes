@@ -232,9 +232,9 @@
 		},
 		{
 			"type": "effect",
-			"id": "pulse",
-			"name": "Pulse",
-			"author": "Danguafer/Silexars",
+			"id": "stretch",
+			"name": "Stretch",
+			"author": "Brad Larson",
 			"version": "r241",
 			"bundled": false
 		},
@@ -358,7 +358,6 @@
 			"Tree2",
 			"Tree3",
 			"PebbleR1",
-			"blasted_snow",
 			"DanielName",
 			"Nicholas_Name",
 			"Tree4",

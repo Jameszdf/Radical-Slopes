@@ -198,6 +198,9 @@
 					"effects": {
 						"Multiply": {
 							"parameters": {}
+						},
+						"Stretch": {
+							"parameters": {}
 						}
 					},
 					"world": {

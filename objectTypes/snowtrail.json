@@ -9,6 +9,10 @@
 		{
 			"effectId": "multiply",
 			"name": "Multiply"
+		},
+		{
+			"effectId": "stretch",
+			"name": "Stretch"
 		}
 	],
 	"animations": {

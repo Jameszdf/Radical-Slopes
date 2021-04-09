@@ -301,6 +301,9 @@
 					"effects": {
 						"Multiply": {
 							"parameters": {}
+						},
+						"Stretch": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -4210,63 +4213,6 @@
 							0.9
 						],
 						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "blasted_snow",
-					"properties": {
-						"rate": 50,
-						"spray-cone": 80,
-						"type": "one-shot",
-						"object": -1,
-						"live-preview": false,
-						"speed": 500,
-						"size": 32,
-						"opacity": 100,
-						"grow-rate": 100,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 25,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 998,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Pulse": {
-							"parameters": {
-								"intensity": 1,
-								"lighting": 0.5,
-								"speed": 50,
-								"frequency": 30,
-								"center-x": 0.5,
-								"center-y": 0
-							}
-						}
-					},
-					"world": {
-						"x": 505,
-						"y": -223,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.7282886728977,
 						"zElevation": 0
 					}
 				},
@@ -11386,6 +11332,9 @@
 					"effects": {
 						"Multiply": {
 							"parameters": {}
+						},
+						"Stretch": {
+							"parameters": {}
 						}
 					},
 					"world": {
@@ -11426,7 +11375,7 @@
 					"effects": {
 						"Crosshatch": {
 							"parameters": {
-								"spacing": 0.03,
+								"spacing": 0.023,
 								"line-width": 0.005
 							}
 						}

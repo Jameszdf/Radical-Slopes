@@ -3362,6 +3362,14 @@
 							"parameters": {
 								"deceleration": "800"
 							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "SnowTrail",
+							"sid": 125270441662548,
+							"parameters": {
+								"opacity": "20"
+							}
 						}
 					],
 					"sid": 195374507370418
@@ -3448,6 +3456,14 @@
 							"parameters": {
 								"deceleration": "900"
 							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "SnowTrail",
+							"sid": 640930344413332,
+							"parameters": {
+								"opacity": "40"
+							}
 						}
 					],
 					"sid": 244044109216173
@@ -3533,6 +3549,14 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"deceleration": "1100"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "SnowTrail",
+							"sid": 851621182113939,
+							"parameters": {
+								"opacity": "60"
 							}
 						}
 					],
@@ -3629,6 +3653,14 @@
 								"instance-variable": "IsAtMaxSpeed",
 								"value": "false"
 							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "SnowTrail",
+							"sid": 535699285406359,
+							"parameters": {
+								"opacity": "80"
+							}
 						}
 					],
 					"sid": 348349574165638
@@ -3705,6 +3737,14 @@
 							"parameters": {
 								"instance-variable": "IsAtMaxSpeed",
 								"value": "true"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "SnowTrail",
+							"sid": 703835756119894,
+							"parameters": {
+								"opacity": "100"
 							}
 						}
 					],
