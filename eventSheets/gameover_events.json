@@ -889,6 +889,7 @@
 							"id": "set-maximum",
 							"objectClass": "SkipDeathScreen",
 							"sid": 614263514209813,
+							"disabled": true,
 							"parameters": {
 								"maximum": "100"
 							}
@@ -897,6 +898,7 @@
 							"id": "set-instvar-value",
 							"objectClass": "SkipDeathScreen",
 							"sid": 820306527964165,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "SkipProgress",
 								"value": "0"
@@ -929,6 +931,15 @@
 							"id": "set-visible",
 							"objectClass": "SkipDeathScreen",
 							"sid": 971638787912266,
+							"disabled": true,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "bar",
+							"sid": 101375121392319,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1002,6 +1013,7 @@
 							"id": "on-timer",
 							"objectClass": "SkipDeathScreen",
 							"sid": 888411081309334,
+							"disabled": true,
 							"behaviorType": "Timer",
 							"parameters": {
 								"tag": "\"Skip Bar\""
@@ -1021,6 +1033,7 @@
 							"id": "set-visible",
 							"objectClass": "SkipDeathScreen",
 							"sid": 350350180120483,
+							"disabled": true,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1029,6 +1042,14 @@
 							"id": "set-visible",
 							"objectClass": "SkipText",
 							"sid": 136460238577667,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "bar",
+							"sid": 245631382475352,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1043,6 +1064,7 @@
 							"id": "on-timer",
 							"objectClass": "SkipDeathScreen",
 							"sid": 473329214222700,
+							"disabled": true,
 							"behaviorType": "Timer",
 							"parameters": {
 								"tag": "\"Skip Bar\""
@@ -1059,6 +1081,7 @@
 							"id": "set-visible",
 							"objectClass": "SkipDeathScreen",
 							"sid": 822739138122392,
+							"disabled": true,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1067,6 +1090,14 @@
 							"id": "set-visible",
 							"objectClass": "SkipText",
 							"sid": 813411510592635,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "bar",
+							"sid": 517325794751644,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1096,9 +1127,19 @@
 							"id": "add-to-instvar",
 							"objectClass": "SkipDeathScreen",
 							"sid": 708507551634220,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "SkipProgress",
 								"value": "1"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "bar",
+							"sid": 459580869647867,
+							"parameters": {
+								"instance-variable": "Progress_bar",
+								"value": "0.01"
 							}
 						}
 					],
@@ -1123,9 +1164,19 @@
 							"id": "add-to-instvar",
 							"objectClass": "SkipDeathScreen",
 							"sid": 573468675564931,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "SkipProgress",
 								"value": "1"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "bar",
+							"sid": 949995681555387,
+							"parameters": {
+								"instance-variable": "Progress_bar",
+								"value": "0.01"
 							}
 						}
 					],
@@ -1160,9 +1211,19 @@
 							"id": "subtract-from-instvar",
 							"objectClass": "SkipDeathScreen",
 							"sid": 967949570703906,
+							"disabled": true,
 							"parameters": {
 								"instance-variable": "SkipProgress",
 								"value": "1"
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "bar",
+							"sid": 568744086477091,
+							"parameters": {
+								"instance-variable": "Progress_bar",
+								"value": "0.01"
 							}
 						}
 					],
@@ -1193,12 +1254,14 @@
 							"id": "set-visible",
 							"objectClass": "SkipDeathScreen",
 							"sid": 802352601850773,
+							"disabled": true,
 							"parameters": {
 								"visibility": "invisible"
 							}
 						}
 					],
-					"sid": 930878068254244
+					"sid": 930878068254244,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1222,12 +1285,14 @@
 							"id": "set-visible",
 							"objectClass": "SkipDeathScreen",
 							"sid": 276626877043547,
+							"disabled": true,
 							"parameters": {
 								"visibility": "invisible"
 							}
 						}
 					],
-					"sid": 329982283823609
+					"sid": 329982283823609,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1254,7 +1319,75 @@
 							}
 						}
 					],
-					"sid": 999719711474959
+					"sid": 999719711474959,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 528592609615987,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "SkipDeathScreen",
+							"sid": 216556048607652,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"comparison": 5,
+								"value": "100"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 436037292552263,
+							"parameters": {
+								"layout": "Playstate"
+							}
+						}
+					],
+					"sid": 243133966907119,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-touch-end",
+							"objectClass": "Touch",
+							"sid": 466561721441504
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "SkipDeathScreen",
+							"sid": 322358481623409,
+							"parameters": {
+								"instance-variable": "SkipProgress",
+								"comparison": 5,
+								"value": "100"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 680700605809050,
+							"parameters": {
+								"layout": "Playstate"
+							}
+						}
+					],
+					"sid": 585479880704248,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1270,79 +1403,145 @@
 							"id": "set-progress",
 							"objectClass": "SkipDeathScreen",
 							"sid": 540102195836879,
+							"disabled": true,
 							"parameters": {
 								"value": "SkipDeathScreen.SkipProgress"
 							}
 						}
 					],
 					"sid": 954877855423600,
-					"children": [
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
 						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-key-released",
-									"objectClass": "Keyboard",
-									"sid": 285430320375016,
-									"parameters": {
-										"key": 32
-									}
-								},
-								{
-									"id": "compare-instance-variable",
-									"objectClass": "SkipDeathScreen",
-									"sid": 307134733244153,
-									"parameters": {
-										"instance-variable": "SkipProgress",
-										"comparison": 5,
-										"value": "100"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 773422294558099,
-									"parameters": {
-										"layout": "Playstate"
-									}
-								}
-							],
-							"sid": 313761971597199
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 162552950192993
+						}
+					],
+					"actions": [
+						{
+							"id": "set-width",
+							"objectClass": "bar",
+							"sid": 774857468040835,
+							"parameters": {
+								"width": "Self.ImageWidth*bar.Progress_bar"
+							}
+						}
+					],
+					"sid": 174468642076292
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-width",
+							"objectClass": "bar",
+							"sid": 630342399389883,
+							"parameters": {
+								"comparison": 5,
+								"width": "200"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 945380799391645,
+							"parameters": {
+								"seconds": "0.5"
+							}
 						},
 						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-any-touch-end",
-									"objectClass": "Touch",
-									"sid": 132028547016855
-								},
-								{
-									"id": "compare-instance-variable",
-									"objectClass": "SkipDeathScreen",
-									"sid": 727777111972722,
-									"parameters": {
-										"instance-variable": "SkipProgress",
-										"comparison": 5,
-										"value": "100"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "go-to-layout",
-									"objectClass": "System",
-									"sid": 983465602798892,
-									"parameters": {
-										"layout": "Playstate"
-									}
-								}
-							],
-							"sid": 401773696205156
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 682507603355986,
+							"parameters": {
+								"layout": "Playstate"
+							}
 						}
-					]
+					],
+					"sid": 864181937858071
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-width",
+							"objectClass": "bar",
+							"sid": 980930152636230,
+							"parameters": {
+								"comparison": 5,
+								"width": "200"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-width",
+							"objectClass": "bar",
+							"sid": 350569328448813,
+							"parameters": {
+								"width": "200"
+							}
+						}
+					],
+					"sid": 205067338130460
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-width",
+							"objectClass": "bar",
+							"sid": 904834873919676,
+							"parameters": {
+								"comparison": 3,
+								"width": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-width",
+							"objectClass": "bar",
+							"sid": 238120504776094,
+							"parameters": {
+								"width": "0"
+							}
+						}
+					],
+					"sid": 538316150117772
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "bar",
+							"sid": 269181692052570,
+							"parameters": {
+								"instance-variable": "Progress_bar",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "bar",
+							"sid": 714747608923375,
+							"parameters": {
+								"instance-variable": "Progress_bar",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 791729858860513
 				}
 			],
 			"sid": 935936012991412
@@ -1670,82 +1869,6 @@
 				}
 			],
 			"sid": 774453878354292
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "key-is-down",
-					"objectClass": "Keyboard",
-					"sid": 665712002739625,
-					"parameters": {
-						"key": 32
-					}
-				},
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 795834733257041
-				}
-			],
-			"actions": [
-				{
-					"id": "add-to-instvar",
-					"objectClass": "bar",
-					"sid": 579541838390956,
-					"parameters": {
-						"instance-variable": "Progress_bar",
-						"value": "0.01"
-					}
-				}
-			],
-			"sid": 704765635736775
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 477179268279671
-				}
-			],
-			"actions": [
-				{
-					"id": "set-width",
-					"objectClass": "bar",
-					"sid": 549919263166120,
-					"parameters": {
-						"width": "Self.ImageWidth*bar.Progress_bar"
-					}
-				}
-			],
-			"sid": 548774296159140
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-width",
-					"objectClass": "bar",
-					"sid": 387608189120472,
-					"parameters": {
-						"comparison": 5,
-						"width": "200"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 557705669130679,
-					"parameters": {
-						"layout": "Playstate"
-					}
-				}
-			],
-			"sid": 316731666621897
 		}
 	],
 	"sid": 945073889186405
