@@ -2378,6 +2378,17 @@
 						"type": "regular",
 						"tag": "\"LastFlagPassed\""
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 795591787842194,
+					"parameters": {
+						"audio-file": "Pass_Flag",
+						"loop": "not-looping",
+						"volume": "-5",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 920371037705875
