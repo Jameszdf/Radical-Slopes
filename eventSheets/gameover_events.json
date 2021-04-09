@@ -939,8 +939,16 @@
 						},
 						{
 							"id": "set-visible",
-							"objectClass": "bar",
-							"sid": 101375121392319,
+							"objectClass": "SkipBar",
+							"sid": 473076218034260,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipBarBG",
+							"sid": 330546785226530,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1049,8 +1057,16 @@
 						},
 						{
 							"id": "set-visible",
-							"objectClass": "bar",
-							"sid": 245631382475352,
+							"objectClass": "SkipBar",
+							"sid": 973773230283256,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipBarBG",
+							"sid": 997011525874166,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1097,8 +1113,16 @@
 						},
 						{
 							"id": "set-visible",
-							"objectClass": "bar",
-							"sid": 517325794751644,
+							"objectClass": "SkipBar",
+							"sid": 411393823460625,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "SkipBarBG",
+							"sid": 411873296212308,
 							"parameters": {
 								"visibility": "visible"
 							}
@@ -1136,10 +1160,10 @@
 						},
 						{
 							"id": "add-to-instvar",
-							"objectClass": "bar",
-							"sid": 459580869647867,
+							"objectClass": "SkipBar",
+							"sid": 224996833500254,
 							"parameters": {
-								"instance-variable": "Progress_bar",
+								"instance-variable": "progress",
 								"value": "0.01"
 							}
 						}
@@ -1173,10 +1197,10 @@
 						},
 						{
 							"id": "add-to-instvar",
-							"objectClass": "bar",
-							"sid": 949995681555387,
+							"objectClass": "SkipBar",
+							"sid": 891249661703019,
 							"parameters": {
-								"instance-variable": "Progress_bar",
+								"instance-variable": "progress",
 								"value": "0.01"
 							}
 						}
@@ -1220,10 +1244,10 @@
 						},
 						{
 							"id": "subtract-from-instvar",
-							"objectClass": "bar",
-							"sid": 568744086477091,
+							"objectClass": "SkipBar",
+							"sid": 712749956893039,
 							"parameters": {
-								"instance-variable": "Progress_bar",
+								"instance-variable": "progress",
 								"value": "0.01"
 							}
 						}
@@ -1425,10 +1449,10 @@
 					"actions": [
 						{
 							"id": "set-width",
-							"objectClass": "bar",
-							"sid": 774857468040835,
+							"objectClass": "SkipBar",
+							"sid": 280093095711775,
 							"parameters": {
-								"width": "Self.ImageWidth*bar.Progress_bar"
+								"width": "Self.ImageWidth*SkipBar.progress"
 							}
 						}
 					],
@@ -1439,8 +1463,8 @@
 					"conditions": [
 						{
 							"id": "compare-width",
-							"objectClass": "bar",
-							"sid": 630342399389883,
+							"objectClass": "SkipBar",
+							"sid": 408348727512304,
 							"parameters": {
 								"comparison": 5,
 								"width": "200"
@@ -1451,9 +1475,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 945380799391645,
+							"sid": 119092287265882,
 							"parameters": {
-								"seconds": "0.5"
+								"seconds": "0.1"
 							}
 						},
 						{
@@ -1472,8 +1496,8 @@
 					"conditions": [
 						{
 							"id": "compare-width",
-							"objectClass": "bar",
-							"sid": 980930152636230,
+							"objectClass": "SkipBar",
+							"sid": 774172545678843,
 							"parameters": {
 								"comparison": 5,
 								"width": "200"
@@ -1483,8 +1507,8 @@
 					"actions": [
 						{
 							"id": "set-width",
-							"objectClass": "bar",
-							"sid": 350569328448813,
+							"objectClass": "SkipBar",
+							"sid": 381002202660454,
 							"parameters": {
 								"width": "200"
 							}
@@ -1497,8 +1521,8 @@
 					"conditions": [
 						{
 							"id": "compare-width",
-							"objectClass": "bar",
-							"sid": 904834873919676,
+							"objectClass": "SkipBar",
+							"sid": 365905709604523,
 							"parameters": {
 								"comparison": 3,
 								"width": "0"
@@ -1508,8 +1532,8 @@
 					"actions": [
 						{
 							"id": "set-width",
-							"objectClass": "bar",
-							"sid": 238120504776094,
+							"objectClass": "SkipBar",
+							"sid": 752992416258115,
 							"parameters": {
 								"width": "0"
 							}
@@ -1522,10 +1546,10 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "bar",
-							"sid": 269181692052570,
+							"objectClass": "SkipBar",
+							"sid": 629726303844675,
 							"parameters": {
-								"instance-variable": "Progress_bar",
+								"instance-variable": "progress",
 								"comparison": 3,
 								"value": "0"
 							}
@@ -1534,10 +1558,10 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "bar",
-							"sid": 714747608923375,
+							"objectClass": "SkipBar",
+							"sid": 565026707458684,
 							"parameters": {
-								"instance-variable": "Progress_bar",
+								"instance-variable": "progress",
 								"value": "0"
 							}
 						}

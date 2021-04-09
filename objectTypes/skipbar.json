@@ -1,27 +1,27 @@
 {
-	"name": "bar",
+	"name": "SkipBar",
 	"plugin-id": "TiledBg",
-	"sid": 343796259430033,
+	"sid": 669917283491593,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "Progress_bar",
+			"name": "progress",
 			"type": "number",
 			"desc": "",
-			"sid": 732371944013826
+			"sid": 702115516501571
 		}
 	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 250,
-		"height": 250,
+		"width": 200,
+		"height": 50,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 9049033,
+		"imageSpriteId": 3155270,
 		"useCollisionPoly": true
 	}
 }

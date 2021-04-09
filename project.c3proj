@@ -377,7 +377,9 @@
 			"BackToTitle",
 			"HighscoreTitle",
 			"PassingtreesInt",
-			"bar"
+			"bar",
+			"SkipBar",
+			"SkipBarBG"
 		],
 		"subfolders": []
 	},

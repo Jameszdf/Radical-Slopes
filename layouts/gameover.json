@@ -6820,6 +6820,39 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "SkipBarBG",
+					"properties": {
+						"initially-visible": false,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1196,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 13,
+						"y": 16,
+						"width": 200,
+						"height": 50,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "TotalScore_GameOver",
 					"properties": {
 						"text": "0",
@@ -7367,10 +7400,45 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 12,
-						"y": 22,
+						"x": 114.2110499380716,
+						"y": -112.27099842565184,
 						"width": 200,
-						"height": 42,
+						"height": 50,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SkipBar",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 1188,
+					"instanceVariables": {
+						"progress": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 13,
+						"y": 16,
+						"width": 200,
+						"height": 50,
 						"originX": 0,
 						"originY": 0,
 						"color": [
