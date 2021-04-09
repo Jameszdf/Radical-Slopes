@@ -217,7 +217,8 @@
 					}
 				}
 			],
-			"sid": 845618513315994
+			"sid": 845618513315994,
+			"disabled": true
 		},
 		{
 			"eventType": "group",
@@ -1738,6 +1739,14 @@
 							],
 							"actions": [
 								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 648539511165039,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
+								{
 									"id": "go-to-layout",
 									"objectClass": "System",
 									"sid": 827051564355616,
@@ -1771,6 +1780,14 @@
 								}
 							],
 							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 812600003551788,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
 								{
 									"id": "go-to-layout",
 									"objectClass": "System",

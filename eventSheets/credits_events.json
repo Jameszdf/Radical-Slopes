@@ -54,6 +54,14 @@
 					],
 					"actions": [
 						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 904046006568315,
+							"parameters": {
+								"seconds": "0.1"
+							}
+						},
+						{
 							"id": "go-to-layout",
 							"objectClass": "System",
 							"sid": 438821490480955,
@@ -164,6 +172,14 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 117188635525419,
+							"parameters": {
+								"seconds": "0.1"
+							}
+						},
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",

@@ -198,6 +198,14 @@
 							],
 							"actions": [
 								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 490233808166822,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
+								{
 									"id": "go-to-layout",
 									"objectClass": "System",
 									"sid": 169787267904101,
@@ -226,6 +234,14 @@
 								}
 							],
 							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 479157396542556,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
 								{
 									"id": "go-to-layout",
 									"objectClass": "System",
@@ -345,6 +361,14 @@
 							],
 							"actions": [
 								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 990986847010126,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
+								{
 									"id": "go-to-layout",
 									"objectClass": "System",
 									"sid": 502157341009629,
@@ -373,6 +397,14 @@
 								}
 							],
 							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 223965169139366,
+									"parameters": {
+										"seconds": "0.1"
+									}
+								},
 								{
 									"id": "go-to-layout",
 									"objectClass": "System",
