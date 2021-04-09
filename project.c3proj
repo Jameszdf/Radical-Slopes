@@ -237,6 +237,14 @@
 			"author": "Danguafer/Silexars",
 			"version": "r241",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "crosshatch",
+			"name": "Crosshatch",
+			"author": "Brad Larson",
+			"version": "r241",
+			"bundled": false
 		}
 	],
 	"uniqueId": "4mx9jenvfxo",

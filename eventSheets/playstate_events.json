@@ -1622,6 +1622,14 @@
 								"animation": "\"Left\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "speed",
+							"sid": 502508106247631,
+							"parameters": {
+								"angle": "30"
+							}
 						}
 					],
 					"sid": 786922747945103
@@ -1718,6 +1726,14 @@
 							"parameters": {
 								"animation": "\"right\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "speed",
+							"sid": 626277936275695,
+							"parameters": {
+								"angle": "325"
 							}
 						}
 					],

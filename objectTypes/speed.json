@@ -11,7 +11,12 @@
 			"sid": 595401463388463
 		}
 	],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "crosshatch",
+			"name": "Crosshatch"
+		}
+	],
 	"animations": {
 		"items": [
 			{
@@ -24,7 +29,7 @@
 						"originalSource": "C:\\Users\\User\\Downloads\\speed-1.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3954077,
+						"imageSpriteId": 8605776,
 						"collisionPoly": {
 							"points": [
 								0.5,
@@ -59,7 +64,7 @@
 						"originalSource": "C:\\Users\\User\\Downloads\\speed-2.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 907745,
+						"imageSpriteId": 926980,
 						"collisionPoly": {
 							"points": [
 								0.5,
@@ -90,7 +95,7 @@
 						"originalSource": "C:\\Users\\User\\Downloads\\speed-3.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3525989,
+						"imageSpriteId": 1838995,
 						"collisionPoly": {
 							"points": [
 								0.5,
@@ -112,7 +117,7 @@
 							{
 								"name": "Image Point 1",
 								"x": 0.4888888888888889,
-								"y": 0.782608695652174
+								"y": 0.7971014492753623
 							}
 						],
 						"duration": 1
@@ -125,7 +130,7 @@
 						"originalSource": "C:\\Users\\User\\Downloads\\speed-4.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 206072,
+						"imageSpriteId": 4594617,
 						"collisionPoly": {
 							"points": [
 								0.5,
@@ -143,7 +148,7 @@
 							{
 								"name": "Image Point 1",
 								"x": 0.4888888888888889,
-								"y": 0.8307692307692308
+								"y": 0.8153846153846154
 							}
 						],
 						"duration": 1
@@ -156,7 +161,7 @@
 						"originalSource": "C:\\Users\\User\\Downloads\\speed-5.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8001669,
+						"imageSpriteId": 6520295,
 						"collisionPoly": {
 							"points": [
 								0.5,
@@ -174,30 +179,30 @@
 							{
 								"name": "Image Point 1",
 								"x": 0.4888888888888889,
-								"y": 0.8307692307692308
+								"y": 0.8153846153846154
 							}
 						],
 						"duration": 1
 					},
 					{
 						"width": 45,
-						"height": 83,
+						"height": 64,
 						"originX": 0.4888888888888889,
-						"originY": 0.7710843373493976,
+						"originY": 0.40625,
 						"originalSource": "C:\\Users\\User\\Downloads\\speed-6.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8169928,
+						"imageSpriteId": 4502267,
 						"collisionPoly": {
 							"points": [
 								0.5,
-								0.9036144578313253,
+								0.875,
 								0.6666666666666666,
-								0.891566265060241,
+								0.859375,
 								0.5,
-								0.9759036144578314,
+								0.96875,
 								0.3111111111111111,
-								0.891566265060241
+								0.859375
 							]
 						},
 						"useCollisionPoly": true,
@@ -205,7 +210,7 @@
 							{
 								"name": "Image Point 1",
 								"x": 0.4888888888888889,
-								"y": 0.8313253012048193
+								"y": 0.8125
 							}
 						],
 						"duration": 1
