@@ -1626,9 +1626,9 @@
 						{
 							"id": "set-angle",
 							"objectClass": "speed",
-							"sid": 502508106247631,
+							"sid": 622939106343584,
 							"parameters": {
-								"angle": "30"
+								"angle": "15"
 							}
 						}
 					],
@@ -1731,9 +1731,9 @@
 						{
 							"id": "set-angle",
 							"objectClass": "speed",
-							"sid": 626277936275695,
+							"sid": 307092157298516,
 							"parameters": {
-								"angle": "325"
+								"angle": "345"
 							}
 						}
 					],
@@ -5375,14 +5375,13 @@
 			],
 			"actions": [
 				{
-					"id": "pin-to-object-properties",
+					"id": "pin-to-object-imagepoint",
 					"objectClass": "speed",
-					"sid": 118394063243754,
+					"sid": 194985117576883,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "Player",
-						"x": true,
-						"y": true,
+						"image-point": "7",
 						"angle": true,
 						"width-type": "no",
 						"height-type": "no",
