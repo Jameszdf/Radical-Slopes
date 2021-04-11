@@ -3767,9 +3767,44 @@
 							"parameters": {
 								"visibility": "visible"
 							}
+						},
+						{
+							"callFunction": "Speed Pulse Color Change",
+							"sid": 478667376127497
 						}
 					],
 					"sid": 355088865619049
+				},
+				{
+					"functionName": "Speed Pulse Color Change",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-effect-enabled",
+							"objectClass": "speed",
+							"sid": 480100778014718,
+							"parameters": {
+								"mode": "disable",
+								"effect": "\"Crosshatch\""
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "speed",
+							"sid": 663784766018492,
+							"parameters": {
+								"animation": "\"Blue\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 924469075991153
 				},
 				{
 					"eventType": "block",
