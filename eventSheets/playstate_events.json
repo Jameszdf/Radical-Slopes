@@ -932,6 +932,11 @@
 					"parameters": {
 						"state": "not-spraying"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "speed",
+					"sid": 418433212801129
 				}
 			],
 			"sid": 879519958678090
@@ -3661,6 +3666,14 @@
 							"parameters": {
 								"opacity": "80"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "speed",
+							"sid": 446726911289523,
+							"parameters": {
+								"visibility": "invisible"
+							}
 						}
 					],
 					"sid": 348349574165638
@@ -3745,6 +3758,14 @@
 							"sid": 703835756119894,
 							"parameters": {
 								"opacity": "100"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "speed",
+							"sid": 622452102628831,
+							"parameters": {
+								"visibility": "visible"
 							}
 						}
 					],
@@ -5227,142 +5248,6 @@
 				}
 			],
 			"sid": 255892328397981
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-created",
-					"objectClass": "Player",
-					"sid": 342787016952510
-				}
-			],
-			"actions": [
-				{
-					"id": "set-collisions-enabled",
-					"objectClass": "Player",
-					"sid": 368457301602763,
-					"parameters": {
-						"collisions": "disabled"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Player_Particles",
-					"sid": 549905309712595,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "move-to-object",
-					"objectClass": "Player",
-					"sid": 466864687274295,
-					"parameters": {
-						"where": "behind",
-						"object": "Trees"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 124241631842002,
-					"parameters": {
-						"variable": "Score",
-						"value": "Score/2"
-					}
-				},
-				{
-					"id": "set-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 199900892891703,
-					"parameters": {
-						"variable": "PlayerIsDead",
-						"value": "false"
-					}
-				},
-				{
-					"id": "flash",
-					"objectClass": "Player",
-					"sid": 207433528315541,
-					"behaviorType": "Flash",
-					"parameters": {
-						"on-time": "0.25",
-						"off-time": "0.25",
-						"duration": "2.0"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 671568215061792,
-					"parameters": {
-						"seconds": "2.0"
-					}
-				},
-				{
-					"id": "set-collisions-enabled",
-					"objectClass": "Player",
-					"sid": 296143028791510,
-					"parameters": {
-						"collisions": "enabled"
-					}
-				}
-			],
-			"sid": 303014003012822,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-eventvar",
-					"objectClass": "System",
-					"sid": 832955051006937,
-					"parameters": {
-						"variable": "ScrollingSpeed",
-						"comparison": 2,
-						"value": "600"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "speed",
-					"sid": 757217108354979,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 692220584763803
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-eventvar",
-					"objectClass": "System",
-					"sid": 455879158598444,
-					"parameters": {
-						"variable": "ScrollingSpeed",
-						"comparison": 5,
-						"value": "600"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "speed",
-					"sid": 622029830732326,
-					"parameters": {
-						"visibility": "visible"
-					}
-				}
-			],
-			"sid": 399097023970988
 		},
 		{
 			"eventType": "block",
