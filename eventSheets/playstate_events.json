@@ -212,6 +212,16 @@
 			"sid": 518623964866770
 		},
 		{
+			"eventType": "variable",
+			"name": "RockIsHit",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 314520379314288
+		},
+		{
 			"eventType": "comment",
 			"text": "Unique ID for Trees"
 		},
@@ -792,10 +802,9 @@
 				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 928187473506500,
-					"disabled": true,
+					"sid": 955314415390319,
 					"parameters": {
-						"variable": "TreeIsHit",
+						"variable": "RockIsHit",
 						"value": "true"
 					}
 				},
@@ -2957,6 +2966,15 @@
 					"sid": 795904197258870,
 					"parameters": {
 						"variable": "FallOffScreen",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 761795860994344,
+					"parameters": {
+						"variable": "RockIsHit",
 						"value": "false"
 					}
 				},

@@ -3,7 +3,14 @@
 	"plugin-id": "video",
 	"sid": 247111851119541,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "PlayScore",
+			"type": "boolean",
+			"desc": "",
+			"sid": 809297593637676
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": []
 }

@@ -6773,7 +6773,9 @@
 						"initially-visible": true
 					},
 					"uid": 385,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"PlayScore": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 0,

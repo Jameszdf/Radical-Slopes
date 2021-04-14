@@ -123,6 +123,15 @@
 								"comparison": 2,
 								"value": "Score"
 							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 688808052176054,
+							"parameters": {
+								"variable": "RockIsHit"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -192,6 +201,96 @@
 						}
 					],
 					"sid": 361982809815174
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 560242019769734,
+							"parameters": {
+								"variable": "Exbestscore",
+								"comparison": 2,
+								"value": "Score"
+							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 709417270734501,
+							"parameters": {
+								"variable": "RockIsHit"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 370103285731802,
+							"parameters": {
+								"variable": "Exbestscore",
+								"value": "Score"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "BestScore_Gameover",
+							"sid": 140471798769668,
+							"parameters": {
+								"text": "round(Exbestscore)"
+							}
+						},
+						{
+							"id": "set-item",
+							"objectClass": "LocalStorage",
+							"sid": 567757328450575,
+							"parameters": {
+								"key": "\"bestscore\"",
+								"value": "Exbestscore"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 910257113039845,
+							"parameters": {
+								"seconds": "8.25"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "New_Animated",
+							"sid": 426803472919795,
+							"parameters": {
+								"opacity": "100"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 917465347264614,
+							"parameters": {
+								"audio-file": "GameOver_ScreenSound2 (1)",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 909297706784755,
+							"parameters": {
+								"audio-file": "GameOver_Cheering",
+								"loop": "not-looping",
+								"volume": "-5",
+								"tag-optional": "\"Cheer\""
+							}
+						}
+					],
+					"sid": 741521914993702
 				}
 			]
 		},
@@ -360,9 +459,17 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-start-of-layout",
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Cutscene",
+							"sid": 589083499734727,
+							"parameters": {
+								"instance-variable": "PlayScore"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
 							"objectClass": "System",
-							"sid": 923159140490313
+							"sid": 477778637878249
 						}
 					],
 					"actions": [
@@ -388,6 +495,7 @@
 							"id": "wait",
 							"objectClass": "System",
 							"sid": 544790299026150,
+							"disabled": true,
 							"parameters": {
 								"seconds": "4"
 							}
@@ -708,9 +816,79 @@
 					"parameters": {
 						"opacity": "50"
 					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Cutscene",
+					"sid": 406620318368137,
+					"parameters": {
+						"instance-variable": "PlayScore",
+						"value": "true"
+					}
 				}
 			],
 			"sid": 637129919627260
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 677196497651073
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 989270978636489,
+					"parameters": {
+						"variable": "RockIsHit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-source",
+					"objectClass": "Cutscene",
+					"sid": 203704170272169,
+					"parameters": {
+						"webm-source": "\"GameOver3.webm\"",
+						"ogg-theora-source": "\"\"",
+						"h264-source": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Cutscene",
+					"sid": 508321421733558
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 786268074723518,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Cutscene",
+					"sid": 146866275426867,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Cutscene",
+					"sid": 440376907313412,
+					"parameters": {
+						"instance-variable": "PlayScore",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 629359220349948
 		},
 		{
 			"eventType": "block",
@@ -794,6 +972,15 @@
 					"sid": 783443519345118,
 					"parameters": {
 						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Cutscene",
+					"sid": 453044558256169,
+					"parameters": {
+						"instance-variable": "PlayScore",
+						"value": "true"
 					}
 				}
 			],
