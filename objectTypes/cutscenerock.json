@@ -1,0 +1,16 @@
+{
+	"name": "CutsceneRock",
+	"plugin-id": "video",
+	"sid": 890994799234940,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "PlayScore",
+			"type": "boolean",
+			"desc": "",
+			"sid": 775833189249841
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

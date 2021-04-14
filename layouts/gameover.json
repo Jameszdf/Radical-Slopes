@@ -6791,6 +6791,36 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "CutsceneRock",
+					"properties": {
+						"webm-source": "",
+						"ogg-theora-source": "",
+						"h264-source": "",
+						"autoplay": "yes",
+						"play-in-background": false,
+						"initially-visible": true
+					},
+					"uid": 1240,
+					"instanceVariables": {
+						"PlayScore": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": -781.2101333373407,
+						"y": -1388.818014821939,
+						"width": 2282.4202666746814,
+						"height": 4057.636029643878,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 218334964657110,

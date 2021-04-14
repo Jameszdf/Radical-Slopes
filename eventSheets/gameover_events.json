@@ -849,8 +849,8 @@
 			"actions": [
 				{
 					"id": "set-source",
-					"objectClass": "Cutscene",
-					"sid": 203704170272169,
+					"objectClass": "CutsceneRock",
+					"sid": 952829212056075,
 					"parameters": {
 						"webm-source": "\"GameOver3.webm\"",
 						"ogg-theora-source": "\"\"",
@@ -859,8 +859,8 @@
 				},
 				{
 					"id": "play",
-					"objectClass": "Cutscene",
-					"sid": 508321421733558
+					"objectClass": "CutsceneRock",
+					"sid": 750223217208756
 				},
 				{
 					"id": "wait",
@@ -871,9 +871,14 @@
 					}
 				},
 				{
+					"id": "pause",
+					"objectClass": "CutsceneRock",
+					"sid": 713391215117171
+				},
+				{
 					"id": "set-opacity",
-					"objectClass": "Cutscene",
-					"sid": 146866275426867,
+					"objectClass": "CutsceneRock",
+					"sid": 569777297289062,
 					"parameters": {
 						"opacity": "50"
 					}

@@ -395,7 +395,8 @@
 			"bar",
 			"SkipBar",
 			"SkipBarBG",
-			"speed"
+			"speed",
+			"CutsceneRock"
 		],
 		"subfolders": []
 	},
