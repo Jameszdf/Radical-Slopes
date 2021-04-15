@@ -810,6 +810,11 @@
 					}
 				},
 				{
+					"id": "pause",
+					"objectClass": "Cutscene",
+					"sid": 527146201710903
+				},
+				{
 					"id": "set-opacity",
 					"objectClass": "Cutscene",
 					"sid": 503503694512439,
@@ -970,6 +975,11 @@
 					"parameters": {
 						"seconds": "1.7"
 					}
+				},
+				{
+					"id": "pause",
+					"objectClass": "Cutscene",
+					"sid": 988539479540306
 				},
 				{
 					"id": "set-opacity",
