@@ -11752,9 +11752,9 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "explanation_mark",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -11762,12 +11762,18 @@
 					},
 					"uid": 1245,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
-						"x": 783,
-						"y": -359,
-						"width": 250,
-						"height": 250,
+						"x": 326,
+						"y": 156,
+						"width": 60.90976933136426,
+						"height": 60.90976933136426,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

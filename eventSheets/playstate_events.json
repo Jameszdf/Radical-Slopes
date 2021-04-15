@@ -5449,6 +5449,83 @@
 				}
 			],
 			"sid": 666923581272234
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "TreePointsCollider",
+					"sid": 813777238987287,
+					"parameters": {
+						"object": "Trees"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "explanation_mark",
+					"sid": 179801600718492,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 715272169535506
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "TreePointsCollider",
+					"sid": 235094486460734,
+					"parameters": {
+						"object": "Trees"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "explanation_mark",
+					"sid": 856873701811309,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 897156845621058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 620373492805931
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "explanation_mark",
+					"sid": 656364209100979,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 479176807428996
 		}
 	],
 	"sid": 785976527585107
