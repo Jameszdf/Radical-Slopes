@@ -5325,9 +5325,85 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "ZOrderCollider",
+					"sid": 775723401916526,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
 				}
 			],
 			"sid": 913759742916203
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "ZOrderCollider",
+					"sid": 921950727157887,
+					"parameters": {
+						"object": "Trees"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Player",
+					"sid": 348987944053250
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "Player_Particles",
+					"sid": 718029280664466,
+					"parameters": {
+						"where": "behind",
+						"object": "Player"
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "Player_Particles2",
+					"sid": 435863530230961,
+					"parameters": {
+						"where": "behind",
+						"object": "Player"
+					}
+				}
+			],
+			"sid": 188856925387986
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "ZOrderCollider",
+					"sid": 929400938163144,
+					"parameters": {
+						"object": "Trees"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-top",
+					"objectClass": "Player",
+					"sid": 509242678621458
+				}
+			],
+			"sid": 176814098191514
 		}
 	],
 	"sid": 785976527585107

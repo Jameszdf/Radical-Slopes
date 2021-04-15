@@ -396,7 +396,8 @@
 			"SkipBar",
 			"SkipBarBG",
 			"speed",
-			"CutsceneRock"
+			"CutsceneRock",
+			"ZOrderCollider"
 		],
 		"subfolders": []
 	},
