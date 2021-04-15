@@ -11632,7 +11632,7 @@
 				{
 					"type": "ZOrderCollider",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -11679,6 +11679,93 @@
 					"world": {
 						"x": 582.5000000000055,
 						"y": -329.4999999999977,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "offscreen_crash",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1243,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 879,
+						"y": 610.5,
+						"width": 250,
+						"height": 1231,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "offscreen_crash",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1244,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -155,
+						"y": 617,
+						"width": 250,
+						"height": 1231,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1245,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 783,
+						"y": -359,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,

@@ -382,7 +382,9 @@
 			"speed",
 			"CutsceneRock",
 			"ZOrderCollider",
-			"Sprite3"
+			"Sprite3",
+			"offscreen_crash",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
