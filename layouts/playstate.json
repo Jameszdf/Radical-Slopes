@@ -11663,6 +11663,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1242,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 582.5000000000055,
+						"y": -329.4999999999977,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 700050108926436,
@@ -11786,33 +11815,23 @@
 						"speed": 200,
 						"size": 32,
 						"opacity": 100,
-						"grow-rate": 0,
+						"grow-rate": -50,
 						"x-randomiser": 0,
 						"y-randomiser": 0,
 						"initial-speed-randomiser": 0,
 						"size-randomiser": 0,
 						"grow-rate-randomiser": 0,
-						"acceleration": -150,
+						"acceleration": 180,
 						"gravity": -1000,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
+						"angle-randomiser": 100,
+						"life-speed-randomiser": 5000,
+						"opacity-randomiser": 20,
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 1
 					},
 					"uid": 119,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Difference": {
-							"parameters": {}
-						},
-						"HexagonalPixellate": {
-							"parameters": {
-								"scale": 18
-							}
-						}
-					},
 					"world": {
 						"x": 278.9770111319668,
 						"y": -351.50498303331455,

@@ -208,22 +208,6 @@
 		},
 		{
 			"type": "effect",
-			"id": "difference",
-			"name": "Difference",
-			"author": "Scirra",
-			"version": "r241",
-			"bundled": false
-		},
-		{
-			"type": "effect",
-			"id": "hexpixellate",
-			"name": "Hexagonal pixellate",
-			"author": "Evan Wallace",
-			"version": "r241",
-			"bundled": false
-		},
-		{
-			"type": "effect",
 			"id": "multiply",
 			"name": "Multiply",
 			"author": "Scirra",
@@ -397,7 +381,8 @@
 			"SkipBarBG",
 			"speed",
 			"CutsceneRock",
-			"ZOrderCollider"
+			"ZOrderCollider",
+			"Sprite3"
 		],
 		"subfolders": []
 	},

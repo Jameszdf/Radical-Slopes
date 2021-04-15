@@ -2911,16 +2911,6 @@
 					"uid": 225,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Difference": {
-							"parameters": {}
-						},
-						"HexagonalPixellate": {
-							"parameters": {
-								"scale": 16
-							}
-						}
-					},
 					"world": {
 						"x": 278.9770111319668,
 						"y": -351.50498303331455,
