@@ -11632,7 +11632,7 @@
 				{
 					"type": "ZOrderCollider",
 					"properties": {
-						"initially-visible": false,
+						"initially-visible": true,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -11648,10 +11648,10 @@
 						}
 					},
 					"world": {
-						"x": 317.15336816068265,
-						"y": 220.78083961486317,
-						"width": 58.37857663055035,
-						"height": 44.7696603327183,
+						"x": 316.5049032364102,
+						"y": 222.5165551301419,
+						"width": 51.51610278318798,
+						"height": 48.241091363275814,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -11793,7 +11793,7 @@
 						"size-randomiser": 0,
 						"grow-rate-randomiser": 0,
 						"acceleration": -150,
-						"gravity": 0,
+						"gravity": -1000,
 						"angle-randomiser": 0,
 						"life-speed-randomiser": 800,
 						"opacity-randomiser": 0,
