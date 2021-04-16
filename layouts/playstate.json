@@ -468,7 +468,8 @@
 					"instanceVariables": {
 						"Life": 3,
 						"MaxSpeed": 250,
-						"IsAtMaxSpeed": false
+						"IsAtMaxSpeed": false,
+						"SpeedExtra": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -11785,6 +11786,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Speed_FullScreen",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1246,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 418,
+						"y": 7500,
+						"width": 1093.2505874931308,
+						"height": 18.96727144626382,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 700050108926436,
@@ -12023,8 +12053,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 455,
-						"y": 2790,
+						"x": -872,
+						"y": 6611,
 						"width": 1093.2505874931308,
 						"height": 18.96727144626382,
 						"originX": 0.5,

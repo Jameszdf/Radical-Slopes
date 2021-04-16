@@ -303,41 +303,41 @@
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel1",
-							"sid": 793951908252220,
+							"sid": 908522355989904,
 							"parameters": {
-								"y": "NewLevel1.Y-ScrollingSpeed*dt"
+								"y": "NewLevel1.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel2",
-							"sid": 587533593790649,
+							"sid": 195070506881119,
 							"parameters": {
-								"y": "NewLevel2.Y-ScrollingSpeed*dt"
+								"y": "NewLevel2.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel3",
-							"sid": 460608163279518,
+							"sid": 807570915327610,
 							"parameters": {
-								"y": "NewLevel3.Y-ScrollingSpeed*dt"
+								"y": "NewLevel3.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel4",
-							"sid": 381612717417240,
+							"sid": 111926864741282,
 							"parameters": {
-								"y": "NewLevel4.Y-ScrollingSpeed*dt"
+								"y": "NewLevel4.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel5",
-							"sid": 499150139275810,
+							"sid": 106528194322181,
 							"parameters": {
-								"y": "NewLevel5.Y-ScrollingSpeed*dt"
+								"y": "NewLevel5.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
@@ -367,33 +367,33 @@
 						{
 							"id": "set-y",
 							"objectClass": "SnowWithDust",
-							"sid": 569503728093948,
+							"sid": 551413894010680,
 							"parameters": {
-								"y": "SnowWithDust.Y-ScrollingSpeed*dt"
+								"y": "SnowWithDust.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "Speed_FullScreen",
-							"sid": 881403001213944,
+							"sid": 427414215273049,
 							"parameters": {
-								"y": "Speed_FullScreen.Y-ScrollingSpeed*dt"
+								"y": "Speed_FullScreen.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "snowflake",
-							"sid": 707864517195469,
+							"sid": 846727924304222,
 							"parameters": {
-								"y": "snowflake.Y-ScrollingSpeed*dt"
+								"y": "snowflake.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "SnowTrail",
-							"sid": 164769519804867,
+							"sid": 504882798046361,
 							"parameters": {
-								"y": "SnowTrail.Y-ScrollingSpeed*dt"
+								"y": "SnowTrail.Y-(ScrollingSpeed+Player.SpeedExtra)*dt"
 							}
 						}
 					],
@@ -438,41 +438,41 @@
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel1",
-							"sid": 569881140616188,
+							"sid": 191319175165231,
 							"parameters": {
-								"y": "NewLevel1.Y-DownSpeed*dt"
+								"y": "NewLevel1.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel2",
-							"sid": 321085695117036,
+							"sid": 672044670573978,
 							"parameters": {
-								"y": "NewLevel2.Y-DownSpeed*dt"
+								"y": "NewLevel2.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel3",
-							"sid": 340393690162545,
+							"sid": 817099028339441,
 							"parameters": {
-								"y": "NewLevel3.Y-DownSpeed*dt"
+								"y": "NewLevel3.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel4",
-							"sid": 402219968432836,
+							"sid": 596557433606897,
 							"parameters": {
-								"y": "NewLevel4.Y-DownSpeed*dt"
+								"y": "NewLevel4.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel5",
-							"sid": 627651616545660,
+							"sid": 906478787653711,
 							"parameters": {
-								"y": "NewLevel5.Y-DownSpeed*dt"
+								"y": "NewLevel5.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
@@ -502,33 +502,33 @@
 						{
 							"id": "set-y",
 							"objectClass": "SnowWithDust",
-							"sid": 924704294389467,
+							"sid": 518693570943053,
 							"parameters": {
-								"y": "SnowWithDust.Y-DownSpeed*dt"
+								"y": "SnowWithDust.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "Speed_FullScreen",
-							"sid": 827292186858379,
+							"sid": 856966740658321,
 							"parameters": {
-								"y": "Speed_FullScreen.Y-DownSpeed*dt"
+								"y": "Speed_FullScreen.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "snowflake",
-							"sid": 947800726213641,
+							"sid": 181840354732607,
 							"parameters": {
-								"y": "snowflake.Y-DownSpeed*dt"
+								"y": "snowflake.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "SnowTrail",
-							"sid": 556430279924642,
+							"sid": 100129955102665,
 							"parameters": {
-								"y": "SnowTrail.Y-DownSpeed*dt"
+								"y": "SnowTrail.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						}
 					],
@@ -560,51 +560,51 @@
 					"actions": [
 						{
 							"id": "set-y",
-							"objectClass": "Level1",
-							"sid": 567516764822403,
-							"disabled": true,
-							"parameters": {
-								"y": "Level1.Y-DownSpeed*dt"
-							}
-						},
-						{
-							"id": "set-y",
 							"objectClass": "NewLevel1",
-							"sid": 722941425172526,
+							"sid": 478703163139886,
 							"parameters": {
-								"y": "NewLevel1.Y-DownSpeed*dt"
+								"y": "NewLevel1.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel2",
-							"sid": 151775436766536,
+							"sid": 961732228555926,
 							"parameters": {
-								"y": "NewLevel2.Y-DownSpeed*dt"
+								"y": "NewLevel2.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel3",
-							"sid": 154348906203654,
+							"sid": 214906044647230,
 							"parameters": {
-								"y": "NewLevel3.Y-DownSpeed*dt"
+								"y": "NewLevel3.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel4",
-							"sid": 421809450438023,
+							"sid": 804599210431953,
 							"parameters": {
-								"y": "NewLevel4.Y-DownSpeed*dt"
+								"y": "NewLevel4.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "NewLevel5",
-							"sid": 539328270297868,
+							"sid": 770704704579423,
 							"parameters": {
-								"y": "NewLevel5.Y-DownSpeed*dt"
+								"y": "NewLevel5.Y-(DownSpeed+Player.SpeedExtra)*dt"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "Level1",
+							"sid": 567516764822403,
+							"disabled": true,
+							"parameters": {
+								"y": "Level1.Y-DownSpeed*dt"
 							}
 						},
 						{
@@ -634,33 +634,33 @@
 						{
 							"id": "set-y",
 							"objectClass": "SnowWithDust",
-							"sid": 206071523009385,
+							"sid": 613300741090571,
 							"parameters": {
-								"y": "SnowWithDust.Y-DownSpeed*dt"
+								"y": "SnowWithDust.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "Speed_FullScreen",
-							"sid": 614970143248998,
+							"sid": 192923184002516,
 							"parameters": {
-								"y": "Speed_FullScreen.Y-DownSpeed*dt"
+								"y": "Speed_FullScreen.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "snowflake",
-							"sid": 501913961962148,
+							"sid": 943355344252642,
 							"parameters": {
-								"y": "snowflake.Y-DownSpeed*dt"
+								"y": "snowflake.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						},
 						{
 							"id": "set-y",
 							"objectClass": "SnowTrail",
-							"sid": 126566692238944,
+							"sid": 408718863617905,
 							"parameters": {
-								"y": "SnowTrail.Y-DownSpeed*dt"
+								"y": "SnowTrail.Y-(DownSpeed+Player.SpeedExtra)*dt"
 							}
 						}
 					],
@@ -2708,6 +2708,31 @@
 						}
 					],
 					"sid": 989105454372409
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "Speed_FullScreen",
+							"sid": 996346539401292,
+							"parameters": {
+								"comparison": 3,
+								"y-co-ordinate": "-5700"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "Speed_FullScreen",
+							"sid": 880357243137275,
+							"parameters": {
+								"y": "1500"
+							}
+						}
+					],
+					"sid": 717895007858144
 				}
 			],
 			"sid": 212347896851286
@@ -3247,7 +3272,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 786965917590929,
+							"sid": 167994874750321,
 							"parameters": {
 								"variable": "ScrollingSpeed",
 								"comparison": 2,
@@ -3309,7 +3334,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 595539581989515,
+							"sid": 177439379784797,
 							"parameters": {
 								"variable": "ScrollingSpeed",
 								"comparison": 5,
@@ -3403,7 +3428,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 921367466532279,
+							"sid": 491531854115517,
 							"parameters": {
 								"variable": "ScrollingSpeed",
 								"comparison": 5,
@@ -3497,7 +3522,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 989874183238201,
+							"sid": 767144600369788,
 							"parameters": {
 								"variable": "ScrollingSpeed",
 								"comparison": 5,
@@ -3591,7 +3616,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 253409388355470,
+							"sid": 932440573523483,
 							"parameters": {
 								"variable": "ScrollingSpeed",
 								"comparison": 5,
@@ -3702,7 +3727,7 @@
 						{
 							"id": "compare-eventvar",
 							"objectClass": "System",
-							"sid": 676636142142370,
+							"sid": 680889666226371,
 							"parameters": {
 								"variable": "ScrollingSpeed",
 								"comparison": 5,
@@ -4767,18 +4792,19 @@
 			],
 			"actions": [
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 686012142706893,
+					"id": "add-to-instvar",
+					"objectClass": "Player",
+					"sid": 880258163827747,
 					"parameters": {
-						"variable": "ScrollingSpeed",
-						"value": "25"
+						"instance-variable": "SpeedExtra",
+						"value": "100"
 					}
 				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
 					"sid": 327461585209942,
+					"disabled": true,
 					"parameters": {
 						"variable": "PlayerMovementSpeed",
 						"value": "25"
@@ -4788,6 +4814,7 @@
 					"id": "add-to-instvar",
 					"objectClass": "Player_Particles",
 					"sid": 989351361187352,
+					"disabled": true,
 					"parameters": {
 						"instance-variable": "Speed",
 						"value": "10"
@@ -4797,6 +4824,7 @@
 					"id": "add-to-instvar",
 					"objectClass": "Player_Particles2",
 					"sid": 278517823987079,
+					"disabled": true,
 					"parameters": {
 						"instance-variable": "Speed",
 						"value": "10"
@@ -4806,6 +4834,7 @@
 					"id": "add-to-instvar",
 					"objectClass": "Player_Particles",
 					"sid": 567054527203142,
+					"disabled": true,
 					"parameters": {
 						"instance-variable": "Cone",
 						"value": "1"
@@ -4815,6 +4844,7 @@
 					"id": "add-to-instvar",
 					"objectClass": "Player_Particles2",
 					"sid": 162992270822450,
+					"disabled": true,
 					"parameters": {
 						"instance-variable": "Cone",
 						"value": "1"
@@ -4824,6 +4854,7 @@
 					"id": "add-to-instvar",
 					"objectClass": "Player_Particles",
 					"sid": 871745174562423,
+					"disabled": true,
 					"parameters": {
 						"instance-variable": "SprayRate",
 						"value": "5"
@@ -4833,14 +4864,14 @@
 					"id": "add-to-instvar",
 					"objectClass": "Player_Particles2",
 					"sid": 483087373769259,
+					"disabled": true,
 					"parameters": {
 						"instance-variable": "SprayRate",
 						"value": "5"
 					}
 				}
 			],
-			"sid": 224418271755894,
-			"disabled": true
+			"sid": 224418271755894
 		},
 		{
 			"eventType": "group",

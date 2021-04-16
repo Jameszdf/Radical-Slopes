@@ -1380,7 +1380,8 @@
 					"instanceVariables": {
 						"Life": 3,
 						"MaxSpeed": 250,
-						"IsAtMaxSpeed": false
+						"IsAtMaxSpeed": false,
+						"SpeedExtra": 0
 					},
 					"behaviors": {
 						"Platform": {

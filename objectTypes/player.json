@@ -21,6 +21,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 186231209304517
+		},
+		{
+			"name": "SpeedExtra",
+			"type": "number",
+			"desc": "",
+			"sid": 397226348764515
 		}
 	],
 	"behaviorTypes": [
