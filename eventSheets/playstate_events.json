@@ -3060,6 +3060,17 @@
 						"mode": "disable",
 						"effect": "\"Pulse\""
 					}
+				},
+				{
+					"id": "start-timer",
+					"objectClass": "Player",
+					"sid": 593235415327482,
+					"behaviorType": "Timer",
+					"parameters": {
+						"duration": "10",
+						"type": "regular",
+						"tag": "\"SpeedUp\""
+					}
 				}
 			],
 			"sid": 381851526261813
@@ -4782,11 +4793,12 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
+					"id": "on-timer",
 					"objectClass": "Player",
-					"sid": 981474414772563,
+					"sid": 241861691316952,
+					"behaviorType": "Timer",
 					"parameters": {
-						"object": "Speed_FullScreen"
+						"tag": "\"SpeedUp\""
 					}
 				}
 			],
