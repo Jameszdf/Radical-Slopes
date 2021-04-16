@@ -469,7 +469,8 @@
 						"Life": 3,
 						"MaxSpeed": 250,
 						"IsAtMaxSpeed": false,
-						"SpeedExtra": 0
+						"SpeedExtra": 0,
+						"PlayerSpeedExtra": 0
 					},
 					"behaviors": {
 						"Platform": {

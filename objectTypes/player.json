@@ -27,6 +27,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 397226348764515
+		},
+		{
+			"name": "PlayerSpeedExtra",
+			"type": "number",
+			"desc": "",
+			"sid": 427494240449464
 		}
 	],
 	"behaviorTypes": [

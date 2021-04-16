@@ -3310,19 +3310,19 @@
 						{
 							"id": "set-acceleration",
 							"objectClass": "Player",
-							"sid": 780854171025904,
+							"sid": 522055490856826,
 							"behaviorType": "Platform",
 							"parameters": {
-								"acceleration": "700"
+								"acceleration": "700+Player.PlayerSpeedExtra"
 							}
 						},
 						{
 							"id": "set-deceleration",
 							"objectClass": "Player",
-							"sid": 148468232318210,
+							"sid": 525366073431319,
 							"behaviorType": "Platform",
 							"parameters": {
-								"deceleration": "700"
+								"deceleration": "700+Player.PlayerSpeedExtra"
 							}
 						}
 					],
@@ -3396,19 +3396,19 @@
 						{
 							"id": "set-acceleration",
 							"objectClass": "Player",
-							"sid": 527247908579057,
+							"sid": 512161527478181,
 							"behaviorType": "Platform",
 							"parameters": {
-								"acceleration": "800"
+								"acceleration": "800+Player.PlayerSpeedExtra"
 							}
 						},
 						{
 							"id": "set-deceleration",
 							"objectClass": "Player",
-							"sid": 933899305536670,
+							"sid": 820560889075866,
 							"behaviorType": "Platform",
 							"parameters": {
-								"deceleration": "800"
+								"deceleration": "800+Player.PlayerSpeedExtra"
 							}
 						},
 						{
@@ -3490,19 +3490,19 @@
 						{
 							"id": "set-acceleration",
 							"objectClass": "Player",
-							"sid": 349777968111244,
+							"sid": 156543608170346,
 							"behaviorType": "Platform",
 							"parameters": {
-								"acceleration": "900"
+								"acceleration": "900+Player.PlayerSpeedExtra"
 							}
 						},
 						{
 							"id": "set-deceleration",
 							"objectClass": "Player",
-							"sid": 834726729228137,
+							"sid": 996724579459659,
 							"behaviorType": "Platform",
 							"parameters": {
-								"deceleration": "900"
+								"deceleration": "900+Player.PlayerSpeedExtra"
 							}
 						},
 						{
@@ -3584,19 +3584,19 @@
 						{
 							"id": "set-acceleration",
 							"objectClass": "Player",
-							"sid": 497426320395345,
+							"sid": 116483237481207,
 							"behaviorType": "Platform",
 							"parameters": {
-								"acceleration": "1100"
+								"acceleration": "1100+Player.PlayerSpeedExtra"
 							}
 						},
 						{
 							"id": "set-deceleration",
 							"objectClass": "Player",
-							"sid": 939278956710156,
+							"sid": 963107727791696,
 							"behaviorType": "Platform",
 							"parameters": {
-								"deceleration": "1100"
+								"deceleration": "1100+Player.PlayerSpeedExtra"
 							}
 						},
 						{
@@ -3678,19 +3678,19 @@
 						{
 							"id": "set-acceleration",
 							"objectClass": "Player",
-							"sid": 264353462924409,
+							"sid": 396190582266096,
 							"behaviorType": "Platform",
 							"parameters": {
-								"acceleration": "1500"
+								"acceleration": "1500+Player.PlayerSpeedExtra"
 							}
 						},
 						{
 							"id": "set-deceleration",
 							"objectClass": "Player",
-							"sid": 224969430418312,
+							"sid": 221607004606630,
 							"behaviorType": "Platform",
 							"parameters": {
-								"deceleration": "1500"
+								"deceleration": "1500+Player.PlayerSpeedExtra"
 							}
 						},
 						{
@@ -4794,20 +4794,29 @@
 				{
 					"id": "add-to-instvar",
 					"objectClass": "Player",
-					"sid": 880258163827747,
+					"sid": 738666614080901,
 					"parameters": {
 						"instance-variable": "SpeedExtra",
-						"value": "100"
+						"value": "25"
 					}
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 327461585209942,
+					"id": "add-to-instvar",
+					"objectClass": "Player",
+					"sid": 458447742725742,
+					"parameters": {
+						"instance-variable": "PlayerSpeedExtra",
+						"value": "25"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "CameraSubstitue",
+					"sid": 431132255856358,
 					"disabled": true,
 					"parameters": {
-						"variable": "PlayerMovementSpeed",
-						"value": "25"
+						"angle": "90",
+						"distance": "100"
 					}
 				},
 				{
