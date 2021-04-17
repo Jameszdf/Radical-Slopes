@@ -7316,10 +7316,10 @@
 				{
 					"type": "SkipText",
 					"properties": {
-						"text": "Skip?\nHold Space",
+						"text": "Hold anywhere to skip",
 						"enable-bbcode": true,
 						"font": "BarcadeNoBar-mzD9",
-						"size": 16,
+						"size": 24,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -7339,10 +7339,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 12,
-						"y": 66,
-						"width": 200,
-						"height": 64,
+						"x": 226.6770837402662,
+						"y": 14,
+						"width": 266.64583251946766,
+						"height": 85.32666640622965,
 						"originX": 0,
 						"originY": 0,
 						"color": [

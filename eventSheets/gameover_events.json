@@ -1363,10 +1363,10 @@
 						{
 							"id": "add-to-instvar",
 							"objectClass": "SkipBar",
-							"sid": 224996833500254,
+							"sid": 572894785075189,
 							"parameters": {
 								"instance-variable": "progress",
-								"value": "0.01"
+								"value": "0.015"
 							}
 						}
 					],
@@ -1400,10 +1400,10 @@
 						{
 							"id": "add-to-instvar",
 							"objectClass": "SkipBar",
-							"sid": 891249661703019,
+							"sid": 426892018887373,
 							"parameters": {
 								"instance-variable": "progress",
-								"value": "0.01"
+								"value": "0.015"
 							}
 						}
 					],
