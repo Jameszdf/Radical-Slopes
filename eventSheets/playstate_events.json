@@ -1971,10 +1971,10 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Player",
-							"sid": 384848070524600,
+							"sid": 380240369009613,
 							"behaviorType": "Platform",
 							"parameters": {
-								"max-speed": "DownSpeedPlayer"
+								"max-speed": "DownSpeedPlayer+Player.PlayerDownSpeedExtra"
 							}
 						},
 						{
@@ -2048,10 +2048,10 @@
 						{
 							"id": "set-max-speed",
 							"objectClass": "Player",
-							"sid": 736347870315864,
+							"sid": 383424713893564,
 							"behaviorType": "Platform",
 							"parameters": {
-								"max-speed": "DownSpeedPlayer"
+								"max-speed": "DownSpeedPlayer+Player.PlayerDownSpeedExtra"
 							}
 						},
 						{
@@ -4819,6 +4819,15 @@
 					"parameters": {
 						"instance-variable": "PlayerSpeedExtra",
 						"value": "25"
+					}
+				},
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Player",
+					"sid": 292493242700022,
+					"parameters": {
+						"instance-variable": "PlayerDownSpeedExtra",
+						"value": "10"
 					}
 				},
 				{

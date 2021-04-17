@@ -33,6 +33,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 427494240449464
+		},
+		{
+			"name": "PlayerDownSpeedExtra",
+			"type": "number",
+			"desc": "",
+			"sid": 740449654057977
 		}
 	],
 	"behaviorTypes": [
