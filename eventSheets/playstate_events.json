@@ -5337,6 +5337,17 @@
 						"image-point": "3",
 						"create-hierarchy": false
 					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 486300427478818,
+					"parameters": {
+						"object": "SnowTrail",
+						"layer": "1",
+						"image-point": "4",
+						"create-hierarchy": false
+					}
 				}
 			],
 			"sid": 306829977832647
