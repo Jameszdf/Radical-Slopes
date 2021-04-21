@@ -693,6 +693,15 @@
 							"parameters": {
 								"color": "rgb(227, 214, 17)"
 							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Credits_Title",
+							"sid": 257697242067074,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
 						}
 					],
 					"sid": 739098003745176
@@ -732,6 +741,15 @@
 							"parameters": {
 								"variable": "Kenneth",
 								"value": "false"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Credits_Title",
+							"sid": 623694960938400,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
 							}
 						}
 					],
@@ -790,6 +808,230 @@
 				}
 			],
 			"sid": 976802163950368
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "PlayerCredits",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 704769732740190
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 533015464659013,
+							"parameters": {
+								"variable": "IsMovingLeft",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 888012868392782,
+							"parameters": {
+								"variable": "IsMOvingRight",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 479249500544608
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 867231310000404
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "Player2",
+							"sid": 384241211606438,
+							"parameters": {
+								"angle": "90",
+								"distance": "5"
+							}
+						}
+					],
+					"sid": 193845562839066
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 279528322125017,
+							"parameters": {
+								"variable": "IsMovingLeft"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player2",
+							"sid": 170781949214975,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player2",
+							"sid": 127054053949505,
+							"parameters": {
+								"animation": "\"Left\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 870385586129206
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 284615880887872,
+							"parameters": {
+								"variable": "IsMOvingRight"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Player2",
+							"sid": 989259388457342,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player2",
+							"sid": 958767345793957,
+							"parameters": {
+								"animation": "\"right\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 784498978046049
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player2",
+							"sid": 237180055293558,
+							"parameters": {
+								"object": "CreditsplayerTurn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 160352284343398,
+							"parameters": {
+								"variable": "IsMovingLeft",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 635059797523785,
+							"parameters": {
+								"variable": "IsMOvingRight",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 434607848877239
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player2",
+							"sid": 644425514636713,
+							"parameters": {
+								"object": "CreditsplayerTurn2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 737939880586772,
+							"parameters": {
+								"variable": "IsMovingLeft",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 599930048005864,
+							"parameters": {
+								"variable": "IsMOvingRight",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 444729136165904
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "Player2",
+							"sid": 966336674758890,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "1450"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-y",
+							"objectClass": "Player2",
+							"sid": 657395447285354,
+							"parameters": {
+								"y": "-70"
+							}
+						}
+					],
+					"sid": 576717902962301
+				}
+			],
+			"sid": 406358743764351
 		}
 	],
 	"sid": 463495467302852

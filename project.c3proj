@@ -384,7 +384,10 @@
 			"ZOrderCollider",
 			"Sprite3",
 			"offscreen_crash",
-			"explanation_mark"
+			"explanation_mark",
+			"Player2",
+			"CreditsplayerTurn",
+			"CreditsplayerTurn2"
 		],
 		"subfolders": []
 	},
