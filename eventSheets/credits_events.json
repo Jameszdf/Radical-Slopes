@@ -864,6 +864,15 @@
 								"height-type": "no",
 								"z": false
 							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Player2",
+							"sid": 692353444211566,
+							"parameters": {
+								"x": "random(180,555)",
+								"y": "-70"
+							}
 						}
 					],
 					"sid": 479249500544608
@@ -1041,15 +1050,107 @@
 					],
 					"actions": [
 						{
-							"id": "set-y",
+							"id": "set-position",
 							"objectClass": "Player2",
-							"sid": 657395447285354,
+							"sid": 658538587953226,
 							"parameters": {
+								"x": "random(180,555)",
 								"y": "-70"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player2",
+							"sid": 649408950898543,
+							"parameters": {
+								"instance-variable": "RLRandomizer",
+								"value": "int(random(1,3))"
 							}
 						}
 					],
 					"sid": 576717902962301
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player2",
+							"sid": 907809818320328,
+							"parameters": {
+								"instance-variable": "RLRandomizer",
+								"comparison": 0,
+								"value": "1"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 716359604026235
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 836310350476387,
+							"parameters": {
+								"variable": "IsMovingLeft",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 227605941082587,
+							"parameters": {
+								"variable": "IsMOvingRight",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 334864691136228
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player2",
+							"sid": 818277945981886,
+							"parameters": {
+								"instance-variable": "RLRandomizer",
+								"comparison": 0,
+								"value": "2"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 357880101447582
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 261319054561651,
+							"parameters": {
+								"variable": "IsMovingLeft",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 675516610868250,
+							"parameters": {
+								"variable": "IsMOvingRight",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 599138282832747
 				}
 			],
 			"sid": 406358743764351

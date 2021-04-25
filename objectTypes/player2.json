@@ -39,6 +39,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 767399045420856
+		},
+		{
+			"name": "RLRandomizer",
+			"type": "number",
+			"desc": "",
+			"sid": 344454359458738
 		}
 	],
 	"behaviorTypes": [

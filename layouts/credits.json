@@ -54,7 +54,8 @@
 						"IsAtMaxSpeed": false,
 						"SpeedExtra": 0,
 						"PlayerSpeedExtra": 0,
-						"PlayerDownSpeedExtra": 0
+						"PlayerDownSpeedExtra": 0,
+						"RLRandomizer": 0
 					},
 					"behaviors": {
 						"Platform": {
