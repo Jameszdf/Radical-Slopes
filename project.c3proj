@@ -387,7 +387,8 @@
 			"explanation_mark",
 			"Player2",
 			"CreditsplayerTurn",
-			"CreditsplayerTurn2"
+			"CreditsplayerTurn2",
+			"PlayerCreditsCollision"
 		],
 		"subfolders": []
 	},

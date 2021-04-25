@@ -280,7 +280,8 @@
 							}
 						}
 					],
-					"sid": 919545800076494
+					"sid": 919545800076494,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -304,7 +305,8 @@
 							}
 						}
 					],
-					"sid": 987808041011905
+					"sid": 987808041011905,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -429,7 +431,8 @@
 							}
 						}
 					],
-					"sid": 938561199805970
+					"sid": 938561199805970,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -453,7 +456,8 @@
 							}
 						}
 					],
-					"sid": 582411692174651
+					"sid": 582411692174651,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -578,7 +582,8 @@
 							}
 						}
 					],
-					"sid": 360451841680835
+					"sid": 360451841680835,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -602,7 +607,8 @@
 							}
 						}
 					],
-					"sid": 214132477128109
+					"sid": 214132477128109,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -843,6 +849,21 @@
 								"variable": "IsMOvingRight",
 								"value": "false"
 							}
+						},
+						{
+							"id": "pin-to-object-properties",
+							"objectClass": "PlayerCreditsCollision",
+							"sid": 504923966381259,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player2",
+								"x": true,
+								"y": true,
+								"angle": true,
+								"width-type": "no",
+								"height-type": "no",
+								"z": false
+							}
 						}
 					],
 					"sid": 479249500544608
@@ -942,8 +963,8 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Player2",
-							"sid": 237180055293558,
+							"objectClass": "PlayerCreditsCollision",
+							"sid": 788452338770076,
 							"parameters": {
 								"object": "CreditsplayerTurn"
 							}
@@ -976,8 +997,8 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Player2",
-							"sid": 644425514636713,
+							"objectClass": "PlayerCreditsCollision",
+							"sid": 885944475543613,
 							"parameters": {
 								"object": "CreditsplayerTurn2"
 							}

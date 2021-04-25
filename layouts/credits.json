@@ -37,43 +37,14 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				}
-			],
-			"sid": 719252451025508,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": false,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"global": false
-		},
-		{
-			"name": "GAME",
-			"overriden": 0,
-			"instances": [
+				},
 				{
 					"type": "Player2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "right",
 						"initial-frame": 0,
-						"enable-collisions": true,
+						"enable-collisions": false,
 						"live-preview": false
 					},
 					"uid": 1247,
@@ -123,7 +94,36 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
+				}
+			],
+			"sid": 719252451025508,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "GAME",
+			"overriden": 0,
+			"instances": [
 				{
 					"type": "CreditsplayerTurn",
 					"properties": {
@@ -406,9 +406,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 360,
-						"y": 960,
-						"width": 196.319468,
-						"height": 147.239601,
+						"y": 1019,
+						"width": 339.385573,
+						"height": 254.53918,
 						"originX": 0.5,
 						"originY": 0.4881516587677725,
 						"color": [
@@ -752,6 +752,41 @@
 						"y": 630,
 						"width": 85,
 						"height": 2821,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PlayerCreditsCollision",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1250,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 400.71707282959983,
+						"y": -70.69231556159832,
+						"width": 38.07886552931956,
+						"height": 38.07886552931956,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
