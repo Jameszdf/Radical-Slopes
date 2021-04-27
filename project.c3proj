@@ -388,7 +388,8 @@
 			"Player2",
 			"CreditsplayerTurn",
 			"CreditsplayerTurn2",
-			"PlayerCreditsCollision"
+			"PlayerCreditsCollision",
+			"Flag_SpeedUI"
 		],
 		"subfolders": []
 	},

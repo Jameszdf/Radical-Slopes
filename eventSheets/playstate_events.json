@@ -4093,17 +4093,17 @@
 						{
 							"id": "set-text",
 							"objectClass": "Score",
-							"sid": 329308982794054,
+							"sid": 944787911969847,
 							"parameters": {
-								"text": "round(Score)"
+								"text": "\"Score: \"&round(Score)"
 							}
 						},
 						{
 							"id": "set-text",
 							"objectClass": "Score2",
-							"sid": 852188335272773,
+							"sid": 555732114005001,
 							"parameters": {
-								"text": "round(Score)"
+								"text": "\"Score: \"&round(Score)"
 							}
 						},
 						{
@@ -4365,6 +4365,58 @@
 						}
 					],
 					"sid": 955540800924102
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 647805063237124,
+							"parameters": {
+								"variable": "FlagMultiplier",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "FlagMultiplier_PlayState",
+							"sid": 782023735075381,
+							"parameters": {
+								"color": "rgb(0, 0, 0)"
+							}
+						}
+					],
+					"sid": 445896861586731
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 820987190483503,
+							"parameters": {
+								"variable": "FlagMultiplier",
+								"comparison": 4,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "FlagMultiplier_PlayState",
+							"sid": 849678343670894,
+							"parameters": {
+								"color": "rgb(0, 175, 0)"
+							}
+						}
+					],
+					"sid": 119864255203048
 				},
 				{
 					"eventType": "block",
