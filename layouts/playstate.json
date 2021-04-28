@@ -11852,7 +11852,7 @@
 					"properties": {
 						"text": "Score: ",
 						"enable-bbcode": true,
-						"font": "Barcade-R4LM",
+						"font": "BarcadeNoBar-mzD9",
 						"size": 38,
 						"line-height": 0,
 						"bold": false,
@@ -11979,7 +11979,7 @@
 					"properties": {
 						"text": "Score: ",
 						"enable-bbcode": true,
-						"font": "Barcade-R4LM",
+						"font": "BarcadeNoBar-mzD9",
 						"size": 38,
 						"line-height": 0,
 						"bold": false,
@@ -12425,7 +12425,7 @@
 					"properties": {
 						"text": "0",
 						"enable-bbcode": true,
-						"font": "Barcade-R4LM",
+						"font": "BarcadeNoBar-mzD9",
 						"size": 38,
 						"line-height": 0,
 						"bold": false,
