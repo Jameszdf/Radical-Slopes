@@ -6821,6 +6821,36 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "CutsceneCliff",
+					"properties": {
+						"webm-source": "",
+						"ogg-theora-source": "",
+						"h264-source": "",
+						"autoplay": "yes",
+						"play-in-background": false,
+						"initially-visible": true
+					},
+					"uid": 1252,
+					"instanceVariables": {
+						"PlayScore": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": -7.437239538944937,
+						"y": -17,
+						"width": 734.8744790778899,
+						"height": 1306.4435183606931,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 218334964657110,

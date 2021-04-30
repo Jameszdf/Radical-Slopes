@@ -920,8 +920,8 @@
 			"actions": [
 				{
 					"id": "set-source",
-					"objectClass": "Cutscene",
-					"sid": 173230780613066,
+					"objectClass": "CutsceneCliff",
+					"sid": 893599870156961,
 					"parameters": {
 						"webm-source": "\"Ver1.webm\"",
 						"ogg-theora-source": "\"\"",
@@ -978,13 +978,13 @@
 				},
 				{
 					"id": "pause",
-					"objectClass": "Cutscene",
-					"sid": 988539479540306
+					"objectClass": "CutsceneCliff",
+					"sid": 938766049540997
 				},
 				{
 					"id": "set-opacity",
-					"objectClass": "Cutscene",
-					"sid": 783443519345118,
+					"objectClass": "CutsceneCliff",
+					"sid": 795532178266090,
 					"parameters": {
 						"opacity": "50"
 					}

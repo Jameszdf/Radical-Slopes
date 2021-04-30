@@ -1,0 +1,16 @@
+{
+	"name": "CutsceneCliff",
+	"plugin-id": "video",
+	"sid": 774602652549110,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "PlayScore",
+			"type": "boolean",
+			"desc": "",
+			"sid": 970044182125971
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
