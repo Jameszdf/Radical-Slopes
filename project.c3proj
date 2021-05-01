@@ -393,7 +393,8 @@
 			"CutsceneCliff",
 			"Gif_cliff",
 			"tree_crash",
-			"Rock_collision"
+			"Rock_collision",
+			"Rock_collsion"
 		],
 		"subfolders": []
 	},

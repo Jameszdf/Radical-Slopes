@@ -7572,7 +7572,7 @@
 					}
 				},
 				{
-					"type": "Rock_collision",
+					"type": "Rock_collsion",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -7584,10 +7584,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -475,
-						"y": 1041,
-						"width": 520,
-						"height": 932,
+						"x": -600,
+						"y": 1064,
+						"width": 523,
+						"height": 935,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
