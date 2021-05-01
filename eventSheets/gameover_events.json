@@ -950,9 +950,9 @@
 				{
 					"id": "set-source",
 					"objectClass": "CutsceneRock",
-					"sid": 952829212056075,
+					"sid": 843081220350657,
 					"parameters": {
-						"webm-source": "\"GameOver3.webm\"",
+						"webm-source": "\"GameOver4.webm\"",
 						"ogg-theora-source": "\"\"",
 						"h264-source": "\"\""
 					}
