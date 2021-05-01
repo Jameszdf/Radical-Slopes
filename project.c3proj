@@ -390,7 +390,9 @@
 			"CreditsplayerTurn2",
 			"PlayerCreditsCollision",
 			"Flag_SpeedUI",
-			"CutsceneCliff"
+			"CutsceneCliff",
+			"Gif_cliff",
+			"tree_crash"
 		],
 		"subfolders": []
 	},
