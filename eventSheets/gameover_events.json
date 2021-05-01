@@ -774,6 +774,46 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
+					"sid": 726245111763992
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "tree_crash",
+					"sid": 712035744083733,
+					"parameters": {
+						"animation": "\"Off\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Rock_collsion",
+					"sid": 303219644087948,
+					"parameters": {
+						"animation": "\"Off\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Gif_cliff",
+					"sid": 573993514252536,
+					"parameters": {
+						"animation": "\"Off\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 993756651123385
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
 					"sid": 573340963214339
 				},
 				{
@@ -817,9 +857,9 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "Cutscene",
-					"sid": 503503694512439,
+					"sid": 342580294805174,
 					"parameters": {
-						"opacity": "50"
+						"opacity": "0"
 					}
 				},
 				{
@@ -833,6 +873,61 @@
 				}
 			],
 			"sid": 637129919627260
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 789112633306636
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 669473614570299,
+					"parameters": {
+						"variable": "TreeIsHit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "tree_crash",
+					"sid": 175430391623940,
+					"parameters": {
+						"animation": "\"Playing\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 158782880176003,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "tree_crash",
+					"sid": 434145211139229,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Cutscene",
+					"sid": 137245078788236,
+					"parameters": {
+						"instance-variable": "PlayScore",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 139572869283079
 		},
 		{
 			"eventType": "block",
@@ -883,9 +978,9 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "CutsceneRock",
-					"sid": 569777297289062,
+					"sid": 744683792199428,
 					"parameters": {
-						"opacity": "50"
+						"opacity": "0"
 					}
 				},
 				{
@@ -899,6 +994,61 @@
 				}
 			],
 			"sid": 629359220349948
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 702738210098922
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 399418681089443,
+					"parameters": {
+						"variable": "RockIsHit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Rock_collsion",
+					"sid": 422132089654497,
+					"parameters": {
+						"animation": "\"Playing\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 996239723032254,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Rock_collsion",
+					"sid": 763404059793593,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Cutscene",
+					"sid": 181067131341266,
+					"parameters": {
+						"instance-variable": "PlayScore",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 935994489404622
 		},
 		{
 			"eventType": "block",
@@ -984,9 +1134,9 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "CutsceneCliff",
-					"sid": 795532178266090,
+					"sid": 576686852147832,
 					"parameters": {
-						"opacity": "50"
+						"opacity": "0"
 					}
 				},
 				{
@@ -1000,6 +1150,61 @@
 				}
 			],
 			"sid": 246349286749769
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 112690033248304
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 394924820344580,
+					"parameters": {
+						"variable": "FallOffScreen"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Gif_cliff",
+					"sid": 270011264599588,
+					"parameters": {
+						"animation": "\"Playing\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 284265081611240,
+					"parameters": {
+						"seconds": "3.9"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Gif_cliff",
+					"sid": 415421691631464,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Cutscene",
+					"sid": 727385199174164,
+					"parameters": {
+						"instance-variable": "PlayScore",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 262688127492343
 		},
 		{
 			"eventType": "block",
