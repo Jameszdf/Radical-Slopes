@@ -392,7 +392,8 @@
 			"Flag_SpeedUI",
 			"CutsceneCliff",
 			"Gif_cliff",
-			"tree_crash"
+			"tree_crash",
+			"Rock_collision"
 		],
 		"subfolders": []
 	},
