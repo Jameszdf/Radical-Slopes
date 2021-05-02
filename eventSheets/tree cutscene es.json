@@ -1,0 +1,30 @@
+{
+	"name": "Tree Cutscene ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "tree_crash",
+					"sid": 915589583778065,
+					"parameters": {
+						"animation": "\"Playing\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 122983824185354,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
+			"sid": 674185616999407
+		}
+	],
+	"sid": 541998115375614
+}

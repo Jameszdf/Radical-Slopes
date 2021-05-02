@@ -1,0 +1,70 @@
+{
+	"name": "Cliff Cutscene",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Gif_cliff",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Playing",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1257,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 362.4516131499486,
+						"y": 640.3584233776864,
+						"width": 724.9032262998973,
+						"height": 1288.716846755373,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 546645160642689,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		}
+	],
+	"sid": 356080735095646,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1440,
+	"height": 2560,
+	"unboundedScrolling": false,
+	"eventSheet": "Cliff Cutscene ES"
+}

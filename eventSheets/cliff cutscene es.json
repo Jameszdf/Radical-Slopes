@@ -1,0 +1,30 @@
+{
+	"name": "Cliff Cutscene ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Gif_cliff",
+					"sid": 830497450600250,
+					"parameters": {
+						"animation": "\"Playing\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 232171298099561,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
+			"sid": 711151958623267
+		}
+	],
+	"sid": 181673666511367
+}

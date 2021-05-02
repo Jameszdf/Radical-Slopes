@@ -752,9 +752,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 238924919353293,
+					"sid": 239938284116846,
 					"parameters": {
-						"layout": "GameOver"
+						"layout": "Tree Cutscene"
 					}
 				}
 			],
@@ -819,9 +819,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 193388755159362,
+					"sid": 551475978677345,
 					"parameters": {
-						"layout": "GameOver"
+						"layout": "Rock Cutscene"
 					}
 				}
 			],
@@ -861,13 +861,58 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 401037170121035,
+					"sid": 285828768057659,
 					"parameters": {
-						"layout": "GameOver"
+						"layout": "Cliff Cutscene"
 					}
 				}
 			],
 			"sid": 902235808158150
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 157104264562932,
+					"parameters": {
+						"object": "offscreen_crash"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 404526769631193,
+					"parameters": {
+						"variable": "FallOffScreen",
+						"value": "true"
+					}
+				},
+				{
+					"callFunction": "NonUniqueDeath",
+					"sid": 283547205074926
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 174800118120313,
+					"parameters": {
+						"tag": "\"Screaming\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 431264919300825,
+					"parameters": {
+						"layout": "Cliff Cutscene"
+					}
+				}
+			],
+			"sid": 592963490861722
 		},
 		{
 			"functionName": "NonUniqueDeath",
@@ -5528,51 +5573,6 @@
 				}
 			],
 			"sid": 176814098191514
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 398718409351935,
-					"parameters": {
-						"object": "offscreen_crash"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 962922433391196,
-					"parameters": {
-						"variable": "FallOffScreen",
-						"value": "true"
-					}
-				},
-				{
-					"callFunction": "NonUniqueDeath",
-					"sid": 242146066933439
-				},
-				{
-					"id": "stop",
-					"objectClass": "Audio",
-					"sid": 555438644579183,
-					"parameters": {
-						"tag": "\"Screaming\""
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 872209967815045,
-					"parameters": {
-						"layout": "GameOver"
-					}
-				}
-			],
-			"sid": 666923581272234
 		},
 		{
 			"eventType": "block",

@@ -11,6 +11,29 @@
 			{
 				"frames": [
 					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8984724,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 216352392012629,
+				"name": "Off",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
 						"width": 519,
 						"height": 931,
 						"originX": 0.5,
@@ -1586,29 +1609,6 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 12
-			},
-			{
-				"frames": [
-					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 8984724,
-						"useCollisionPoly": true,
-						"duration": 1
-					}
-				],
-				"sid": 216352392012629,
-				"name": "Off",
-				"isLooping": false,
-				"isPingPong": false,
-				"repeatCount": 1,
-				"repeatTo": 0,
-				"speed": 5
 			}
 		],
 		"subfolders": []

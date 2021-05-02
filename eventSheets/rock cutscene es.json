@@ -1,0 +1,30 @@
+{
+	"name": "Rock Cutscene ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Rock_collsion",
+					"sid": 900110800518346,
+					"parameters": {
+						"animation": "\"Playing\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 390004309181124,
+					"parameters": {
+						"layout": "GameOver"
+					}
+				}
+			],
+			"sid": 867045380806400
+		}
+	],
+	"sid": 504625282409480
+}

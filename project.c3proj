@@ -433,7 +433,17 @@
 			"Credits",
 			"LL1"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"Cliff Cutscene",
+					"Tree Cutscene",
+					"Rock Cutscene"
+				],
+				"subfolders": [],
+				"name": "Cutscenes"
+			}
+		]
 	},
 	"eventSheets": {
 		"items": [
@@ -446,7 +456,17 @@
 			"timeattack+playstate events",
 			"Credits_Events"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"Tree Cutscene ES",
+					"Cliff Cutscene ES",
+					"Rock Cutscene ES"
+				],
+				"subfolders": [],
+				"name": "Cutscene Events"
+			}
+		]
 	},
 	"rootFileFolders": {
 		"script": {
