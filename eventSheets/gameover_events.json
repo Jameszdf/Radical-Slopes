@@ -460,8 +460,8 @@
 					"conditions": [
 						{
 							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Cutscene",
-							"sid": 589083499734727,
+							"objectClass": "PlayScoreSprite",
+							"sid": 603657927454028,
 							"parameters": {
 								"instance-variable": "PlayScore"
 							}
@@ -864,8 +864,8 @@
 				},
 				{
 					"id": "set-boolean-instvar",
-					"objectClass": "Cutscene",
-					"sid": 406620318368137,
+					"objectClass": "PlayScoreSprite",
+					"sid": 510846610680078,
 					"parameters": {
 						"instance-variable": "PlayScore",
 						"value": "true"
@@ -919,8 +919,8 @@
 				},
 				{
 					"id": "set-boolean-instvar",
-					"objectClass": "Cutscene",
-					"sid": 137245078788236,
+					"objectClass": "PlayScoreSprite",
+					"sid": 160882592191715,
 					"parameters": {
 						"instance-variable": "PlayScore",
 						"value": "true"
@@ -985,8 +985,8 @@
 				},
 				{
 					"id": "set-boolean-instvar",
-					"objectClass": "Cutscene",
-					"sid": 440376907313412,
+					"objectClass": "PlayScoreSprite",
+					"sid": 761684206443037,
 					"parameters": {
 						"instance-variable": "PlayScore",
 						"value": "true"
@@ -1040,8 +1040,8 @@
 				},
 				{
 					"id": "set-boolean-instvar",
-					"objectClass": "Cutscene",
-					"sid": 181067131341266,
+					"objectClass": "PlayScoreSprite",
+					"sid": 893295510579899,
 					"parameters": {
 						"instance-variable": "PlayScore",
 						"value": "true"
@@ -1141,8 +1141,8 @@
 				},
 				{
 					"id": "set-boolean-instvar",
-					"objectClass": "Cutscene",
-					"sid": 453044558256169,
+					"objectClass": "PlayScoreSprite",
+					"sid": 883476543629553,
 					"parameters": {
 						"instance-variable": "PlayScore",
 						"value": "true"
@@ -1196,8 +1196,8 @@
 				},
 				{
 					"id": "set-boolean-instvar",
-					"objectClass": "Cutscene",
-					"sid": 727385199174164,
+					"objectClass": "PlayScoreSprite",
+					"sid": 389778098347509,
 					"parameters": {
 						"instance-variable": "PlayScore",
 						"value": "true"

@@ -394,7 +394,8 @@
 			"Gif_cliff",
 			"tree_crash",
 			"Rock_collision",
-			"Rock_collsion"
+			"Rock_collsion",
+			"PlayScoreSprite"
 		],
 		"subfolders": []
 	},
@@ -442,6 +443,15 @@
 				],
 				"subfolders": [],
 				"name": "Cutscenes"
+			},
+			{
+				"items": [
+					"GameOverTree",
+					"GameOverCliff",
+					"GameOverRock"
+				],
+				"subfolders": [],
+				"name": "Individual Cutscene"
 			}
 		]
 	},

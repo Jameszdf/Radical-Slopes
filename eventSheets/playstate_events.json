@@ -752,9 +752,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 239938284116846,
+					"sid": 940397126494233,
 					"parameters": {
-						"layout": "Tree Cutscene"
+						"layout": "GameOverTree"
 					}
 				}
 			],
@@ -819,9 +819,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 551475978677345,
+					"sid": 862040989383291,
 					"parameters": {
-						"layout": "Rock Cutscene"
+						"layout": "GameOverRock"
 					}
 				}
 			],
@@ -861,9 +861,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 285828768057659,
+					"sid": 865240703018047,
 					"parameters": {
-						"layout": "Cliff Cutscene"
+						"layout": "GameOverCliff"
 					}
 				}
 			],
@@ -906,9 +906,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 431264919300825,
+					"sid": 731272829844467,
 					"parameters": {
-						"layout": "Cliff Cutscene"
+						"layout": "GameOverCliff"
 					}
 				}
 			],
