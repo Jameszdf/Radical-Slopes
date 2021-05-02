@@ -35,13 +35,13 @@
 				"frames": [
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 00.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 00.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5424237,
+						"imageSpriteId": 8523553,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -53,11 +53,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -67,13 +67,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 01.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 01.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8274430,
+						"imageSpriteId": 9375923,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -85,11 +85,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -99,13 +99,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 02.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 02.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7762192,
+						"imageSpriteId": 7331989,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -117,11 +117,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -131,13 +131,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 03.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 03.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 712094,
+						"imageSpriteId": 6210909,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -149,11 +149,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -163,13 +163,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 04.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 04.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3263188,
+						"imageSpriteId": 3780311,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -181,11 +181,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -195,13 +195,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 05.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 05.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 354887,
+						"imageSpriteId": 4240896,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -213,11 +213,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -227,13 +227,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 06.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 06.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7296311,
+						"imageSpriteId": 2207668,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -245,11 +245,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -259,13 +259,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 07.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 07.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6137605,
+						"imageSpriteId": 9178232,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -277,11 +277,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -291,13 +291,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 08.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 08.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9043023,
+						"imageSpriteId": 3176265,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -309,11 +309,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -323,13 +323,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 09.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 09.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 386251,
+						"imageSpriteId": 5595880,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -341,11 +341,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -355,13 +355,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 10.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 10.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8549797,
+						"imageSpriteId": 3433728,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -373,11 +373,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -387,13 +387,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 11.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 11.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5416676,
+						"imageSpriteId": 7214500,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -405,11 +405,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -419,13 +419,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 12.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 12.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6208754,
+						"imageSpriteId": 3111955,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -437,11 +437,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -451,13 +451,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 13.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 13.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7366762,
+						"imageSpriteId": 7732851,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -469,11 +469,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -483,13 +483,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 14.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 14.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1682029,
+						"imageSpriteId": 7036104,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -501,11 +501,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -515,13 +515,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 15.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 15.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1512608,
+						"imageSpriteId": 1140795,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -533,11 +533,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -547,13 +547,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 16.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 16.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1352089,
+						"imageSpriteId": 6199606,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -565,11 +565,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -579,13 +579,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 17.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 17.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3186457,
+						"imageSpriteId": 2509045,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -597,11 +597,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -611,13 +611,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 18.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 18.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2472549,
+						"imageSpriteId": 8145171,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -629,11 +629,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -643,13 +643,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 19.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 19.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5871531,
+						"imageSpriteId": 3455801,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -661,11 +661,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -675,13 +675,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 20.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 20.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3982534,
+						"imageSpriteId": 6075278,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -693,11 +693,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -707,13 +707,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 21.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 21.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6073881,
+						"imageSpriteId": 5447953,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -725,11 +725,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -739,13 +739,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 22.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 22.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5947878,
+						"imageSpriteId": 7007398,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -757,11 +757,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -771,13 +771,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 23.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 23.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2811689,
+						"imageSpriteId": 6147286,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -789,11 +789,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -803,13 +803,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 24.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 24.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7999747,
+						"imageSpriteId": 753319,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -821,11 +821,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -835,13 +835,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 25.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 25.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8565090,
+						"imageSpriteId": 3183036,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -853,11 +853,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -867,13 +867,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 26.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 26.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1364980,
+						"imageSpriteId": 980462,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -885,11 +885,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -899,13 +899,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 27.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 27.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 966868,
+						"imageSpriteId": 9380543,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -917,11 +917,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -931,13 +931,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 28.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 28.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 174654,
+						"imageSpriteId": 5123876,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -949,11 +949,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -963,13 +963,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 29.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 29.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2781004,
+						"imageSpriteId": 6395988,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -981,11 +981,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -995,13 +995,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 30.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 30.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3529987,
+						"imageSpriteId": 225822,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1013,11 +1013,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1027,13 +1027,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 31.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 31.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9617667,
+						"imageSpriteId": 2656282,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1045,11 +1045,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1059,13 +1059,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 32.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 32.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6141403,
+						"imageSpriteId": 2278270,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1077,11 +1077,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1091,13 +1091,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 33.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 33.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9784224,
+						"imageSpriteId": 825530,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1109,11 +1109,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1123,13 +1123,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 34.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 34.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4415456,
+						"imageSpriteId": 6290399,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1141,11 +1141,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1155,13 +1155,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 35.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 35.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6730475,
+						"imageSpriteId": 6219718,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1173,11 +1173,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1187,13 +1187,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 36.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 36.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9811672,
+						"imageSpriteId": 4212459,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1205,11 +1205,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1219,13 +1219,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 37.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 37.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6350559,
+						"imageSpriteId": 9345770,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1237,11 +1237,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1251,13 +1251,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 38.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 38.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9922107,
+						"imageSpriteId": 2619394,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1269,11 +1269,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1283,13 +1283,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 39.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 39.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8580175,
+						"imageSpriteId": 7009819,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1301,11 +1301,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1315,13 +1315,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 40.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 40.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2913620,
+						"imageSpriteId": 9063472,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1333,11 +1333,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1347,13 +1347,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 41.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 41.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6987219,
+						"imageSpriteId": 3125224,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1365,11 +1365,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1379,13 +1379,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 42.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 42.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1844532,
+						"imageSpriteId": 6540669,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1397,11 +1397,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1411,13 +1411,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 43.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 43.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9768054,
+						"imageSpriteId": 2225245,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1429,11 +1429,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1443,13 +1443,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 44.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 44.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9751278,
+						"imageSpriteId": 2767146,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1461,11 +1461,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1475,13 +1475,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 45.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 45.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3029512,
+						"imageSpriteId": 8286129,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1493,11 +1493,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1507,13 +1507,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 46.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 46.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1296370,
+						"imageSpriteId": 1577892,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1525,11 +1525,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1539,13 +1539,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling 47.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 47.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6878375,
+						"imageSpriteId": 7930318,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1557,11 +1557,1163 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 48.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7549604,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 49.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2383579,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 50.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 766061,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 51.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3441607,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 52.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2712565,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 53.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8446166,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 54.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8813370,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 55.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5211910,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 56.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6308870,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 57.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7000467,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 58.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3760371,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 59.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1935355,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 60.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2550374,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 61.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6516783,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 62.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8937529,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 63.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2903467,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 64.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2244543,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 65.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 278478,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 66.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4305530,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 67.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3602791,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 68.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1029879,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 69.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8546827,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 70.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1292562,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 71.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8044341,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 72.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8091118,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 73.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5693912,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 74.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8445732,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 75.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2542858,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 76.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4635219,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 77.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2502593,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 78.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1133265,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 79.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 658257,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 80.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2770164,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 81.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7809708,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 82.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2169735,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\falling_24 frames 83.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2995816,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
 								0,
 								0.5
 							]

@@ -35,13 +35,13 @@
 				"frames": [
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 00.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 00.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4670902,
+						"imageSpriteId": 8599649,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -53,11 +53,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -67,13 +67,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 01.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 01.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1258686,
+						"imageSpriteId": 426264,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -85,11 +85,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -99,13 +99,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 02.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 02.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5275685,
+						"imageSpriteId": 8283646,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -117,11 +117,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -131,13 +131,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 03.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 03.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8221175,
+						"imageSpriteId": 4283989,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -149,11 +149,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -163,13 +163,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 04.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 04.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3215549,
+						"imageSpriteId": 8808852,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -181,11 +181,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -195,13 +195,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 05.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 05.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7992594,
+						"imageSpriteId": 4887470,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -213,11 +213,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -227,13 +227,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 06.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 06.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2108642,
+						"imageSpriteId": 1125266,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -245,11 +245,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -259,13 +259,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 07.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 07.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2090045,
+						"imageSpriteId": 2148420,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -277,11 +277,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -291,13 +291,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 08.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 08.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2021790,
+						"imageSpriteId": 8920730,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -309,11 +309,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -323,13 +323,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 09.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 09.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9687980,
+						"imageSpriteId": 4091844,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -341,11 +341,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -355,13 +355,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 10.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 10.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4992402,
+						"imageSpriteId": 708445,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -373,11 +373,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -387,13 +387,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 11.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 11.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4674061,
+						"imageSpriteId": 827872,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -405,11 +405,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -419,13 +419,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 12.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 12.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7538624,
+						"imageSpriteId": 5447799,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -437,11 +437,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -451,13 +451,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 13.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 13.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4754618,
+						"imageSpriteId": 4086557,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -469,11 +469,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -483,13 +483,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 14.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 14.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2082857,
+						"imageSpriteId": 6285148,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -501,11 +501,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -515,13 +515,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 15.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 15.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9711520,
+						"imageSpriteId": 3208533,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -533,11 +533,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -547,13 +547,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 16.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 16.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9783394,
+						"imageSpriteId": 451551,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -565,11 +565,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -579,13 +579,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 17.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 17.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3238090,
+						"imageSpriteId": 8996717,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -597,11 +597,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -611,13 +611,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 18.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 18.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6282841,
+						"imageSpriteId": 7717649,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -629,11 +629,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -643,13 +643,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 19.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 19.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 180071,
+						"imageSpriteId": 3124358,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -661,11 +661,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -675,13 +675,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 20.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 20.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 178978,
+						"imageSpriteId": 7515710,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -693,11 +693,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -707,13 +707,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 21.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 21.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7212291,
+						"imageSpriteId": 6318605,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -725,11 +725,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -739,13 +739,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 22.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 22.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7755111,
+						"imageSpriteId": 5301576,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -757,11 +757,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -771,13 +771,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 23.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 23.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2658845,
+						"imageSpriteId": 5556939,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -789,11 +789,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -803,13 +803,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 24.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 24.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3990394,
+						"imageSpriteId": 9410161,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -821,11 +821,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -835,13 +835,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 25.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 25.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8200369,
+						"imageSpriteId": 4565780,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -853,11 +853,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -867,13 +867,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 26.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 26.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9182270,
+						"imageSpriteId": 4374429,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -885,11 +885,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -899,13 +899,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 27.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 27.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1899961,
+						"imageSpriteId": 4235260,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -917,11 +917,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -931,13 +931,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 28.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 28.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8622791,
+						"imageSpriteId": 8280249,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -949,11 +949,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -963,13 +963,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 29.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 29.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 154881,
+						"imageSpriteId": 1624435,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -981,11 +981,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -995,13 +995,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 30.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 30.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4186714,
+						"imageSpriteId": 7339919,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1013,11 +1013,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1027,13 +1027,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 31.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 31.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2070483,
+						"imageSpriteId": 8740641,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1045,11 +1045,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1059,13 +1059,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 32.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 32.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6411015,
+						"imageSpriteId": 931027,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1077,11 +1077,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1091,13 +1091,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 33.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 33.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5840415,
+						"imageSpriteId": 8935321,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1109,11 +1109,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1123,13 +1123,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 34.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 34.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1608413,
+						"imageSpriteId": 6213100,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1141,11 +1141,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1155,13 +1155,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 35.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 35.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8203666,
+						"imageSpriteId": 7019980,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1173,11 +1173,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1187,13 +1187,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 36.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 36.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9894560,
+						"imageSpriteId": 2258219,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1205,11 +1205,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1219,13 +1219,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 37.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 37.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 251610,
+						"imageSpriteId": 4346580,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1237,11 +1237,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1251,13 +1251,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 38.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 38.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4256364,
+						"imageSpriteId": 5112173,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1269,11 +1269,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1283,13 +1283,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 39.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 39.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2476073,
+						"imageSpriteId": 9816016,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1301,11 +1301,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1315,13 +1315,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 40.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 40.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9842777,
+						"imageSpriteId": 7434193,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1333,11 +1333,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1347,13 +1347,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 41.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 41.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8655208,
+						"imageSpriteId": 5756582,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1365,11 +1365,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1379,13 +1379,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 42.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 42.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5793786,
+						"imageSpriteId": 1582202,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1397,11 +1397,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1411,13 +1411,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 43.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 43.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1821459,
+						"imageSpriteId": 2945822,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1429,11 +1429,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1443,13 +1443,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 44.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 44.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1847910,
+						"imageSpriteId": 5813464,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1461,11 +1461,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1475,13 +1475,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 45.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 45.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7684722,
+						"imageSpriteId": 2230741,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1493,11 +1493,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1507,13 +1507,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 46.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 46.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6889596,
+						"imageSpriteId": 2690311,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1525,11 +1525,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1539,13 +1539,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 47.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 47.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3004474,
+						"imageSpriteId": 4166058,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1557,11 +1557,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1571,13 +1571,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 48.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 48.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6092588,
+						"imageSpriteId": 8636292,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1589,11 +1589,11 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
 								0.5
 							]
@@ -1603,13 +1603,13 @@
 					},
 					{
 						"width": 523,
-						"height": 931,
+						"height": 932,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\tree_crash 49.png",
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 49.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9224954,
+						"imageSpriteId": 6141863,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -1621,11 +1621,1195 @@
 								0.9980879541108987,
 								0.5,
 								0.9980879541108987,
-								0.9989258861439313,
+								0.9989270386266095,
 								0.5,
-								0.9989258861439313,
+								0.9989270386266095,
 								0,
-								0.9989258861439313,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 50.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4617851,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 51.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7017042,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 52.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9998274,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 53.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7071723,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 54.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6265958,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 55.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5169267,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 56.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8261604,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 57.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 848758,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 58.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3548586,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 59.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3627247,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 60.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5379840,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 61.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8919972,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 62.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3033033,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 63.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6375287,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 64.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3127521,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 65.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8615261,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 66.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 658014,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 67.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7568263,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 68.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6506673,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 69.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6233294,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 70.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8006409,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 71.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2799126,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 72.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2756450,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 73.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2215425,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 74.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9909028,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 75.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 189501,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 76.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6766442,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 77.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2945217,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 78.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4587869,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 79.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4723193,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 80.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2077025,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 81.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1794220,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 82.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3611270,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 83.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5152656,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 84.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 975553,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 85.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4279920,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 523,
+						"height": 932,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\User\\OneDrive\\Desktop\\gifs\\Tree_24 Frames 86.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 559286,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9980879541108987,
+								0,
+								0.9980879541108987,
+								0.5,
+								0.9980879541108987,
+								0.9989270386266095,
+								0.5,
+								0.9989270386266095,
+								0,
+								0.9989270386266095,
 								0,
 								0.5
 							]
