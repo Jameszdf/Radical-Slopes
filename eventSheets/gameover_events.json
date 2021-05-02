@@ -806,7 +806,8 @@
 					}
 				}
 			],
-			"sid": 993756651123385
+			"sid": 993756651123385,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -827,19 +828,15 @@
 			],
 			"actions": [
 				{
-					"id": "set-source",
-					"objectClass": "Cutscene",
-					"sid": 564017232634812,
-					"parameters": {
-						"webm-source": "\"Ver2.webm\"",
-						"ogg-theora-source": "\"\"",
-						"h264-source": "\"\""
-					}
-				},
-				{
 					"id": "play",
-					"objectClass": "Cutscene",
-					"sid": 155784135208486
+					"objectClass": "Audio",
+					"sid": 137365246263720,
+					"parameters": {
+						"audio-file": "Ver2-Audio",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"Tree\""
+					}
 				},
 				{
 					"id": "wait",
@@ -850,16 +847,11 @@
 					}
 				},
 				{
-					"id": "pause",
-					"objectClass": "Cutscene",
-					"sid": 527146201710903
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "Cutscene",
-					"sid": 342580294805174,
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 832176225223201,
 					"parameters": {
-						"opacity": "0"
+						"tag": "\"Tree\""
 					}
 				},
 				{
@@ -959,8 +951,14 @@
 				},
 				{
 					"id": "play",
-					"objectClass": "CutsceneRock",
-					"sid": 750223217208756
+					"objectClass": "Audio",
+					"sid": 735246709707370,
+					"parameters": {
+						"audio-file": "gameover4-Audio",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"Rock\""
+					}
 				},
 				{
 					"id": "wait",
@@ -971,16 +969,11 @@
 					}
 				},
 				{
-					"id": "pause",
-					"objectClass": "CutsceneRock",
-					"sid": 713391215117171
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "CutsceneRock",
-					"sid": 744683792199428,
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 732488369082478,
 					"parameters": {
-						"opacity": "0"
+						"tag": "\"Rock\""
 					}
 				},
 				{
@@ -1069,19 +1062,15 @@
 			],
 			"actions": [
 				{
-					"id": "set-source",
-					"objectClass": "CutsceneCliff",
-					"sid": 893599870156961,
-					"parameters": {
-						"webm-source": "\"Ver1.webm\"",
-						"ogg-theora-source": "\"\"",
-						"h264-source": "\"\""
-					}
-				},
-				{
 					"id": "play",
-					"objectClass": "Cutscene",
-					"sid": 899556903611362
+					"objectClass": "Audio",
+					"sid": 947216937922327,
+					"parameters": {
+						"audio-file": "Ver1-Audio",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"Cliff\""
+					}
 				},
 				{
 					"id": "wait",
@@ -1127,16 +1116,11 @@
 					}
 				},
 				{
-					"id": "pause",
-					"objectClass": "CutsceneCliff",
-					"sid": 938766049540997
-				},
-				{
-					"id": "set-opacity",
-					"objectClass": "CutsceneCliff",
-					"sid": 576686852147832,
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 390534048767381,
 					"parameters": {
-						"opacity": "0"
+						"tag": "\"Cliff\""
 					}
 				},
 				{
@@ -1271,6 +1255,30 @@
 					"sid": 457876377761270,
 					"parameters": {
 						"tag": "\"Screaming\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 510999854993690,
+					"parameters": {
+						"tag": "\"Tree\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 657101702745663,
+					"parameters": {
+						"tag": "\"Cliff\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 868037347680413,
+					"parameters": {
+						"tag": "\"Rock\""
 					}
 				}
 			],

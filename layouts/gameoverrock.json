@@ -6763,36 +6763,6 @@
 					}
 				},
 				{
-					"type": "CutsceneRock",
-					"properties": {
-						"webm-source": "",
-						"ogg-theora-source": "",
-						"h264-source": "",
-						"autoplay": "yes",
-						"play-in-background": false,
-						"initially-visible": true
-					},
-					"uid": 2005,
-					"instanceVariables": {
-						"PlayScore": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 720,
-						"height": 1280,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
 					"type": "Rock_collsion",
 					"properties": {
 						"initially-visible": true,
