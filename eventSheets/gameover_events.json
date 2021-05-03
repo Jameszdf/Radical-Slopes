@@ -2325,6 +2325,30 @@
 				}
 			],
 			"sid": 774453878354292
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-tag-playing",
+					"objectClass": "Audio",
+					"sid": 872076095614339,
+					"parameters": {
+						"tag": "\"Rick\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 177803974004959,
+					"parameters": {
+						"tag": "\"Rick\""
+					}
+				}
+			],
+			"sid": 838362442707450
 		}
 	],
 	"sid": 945073889186405

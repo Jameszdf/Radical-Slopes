@@ -750,6 +750,14 @@
 					}
 				},
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 502595980114107,
+					"parameters": {
+						"tag": "\"Rick\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 269645126161339,
@@ -825,6 +833,14 @@
 					}
 				},
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 902927365717921,
+					"parameters": {
+						"tag": "\"Rick\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 585048840953778,
@@ -875,6 +891,14 @@
 					}
 				},
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 831599423381195,
+					"parameters": {
+						"tag": "\"Rick\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 865240703018047,
@@ -917,6 +941,14 @@
 					"sid": 174800118120313,
 					"parameters": {
 						"tag": "\"Screaming\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 945122418249131,
+					"parameters": {
+						"tag": "\"Rick\""
 					}
 				},
 				{
