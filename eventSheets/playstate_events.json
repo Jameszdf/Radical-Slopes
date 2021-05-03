@@ -742,6 +742,14 @@
 					}
 				},
 				{
+					"id": "load-object-images",
+					"objectClass": "System",
+					"sid": 531079539822637,
+					"parameters": {
+						"object": "tree_crash"
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 269645126161339,
@@ -806,6 +814,14 @@
 					"parameters": {
 						"variable": "RockIsHit",
 						"value": "true"
+					}
+				},
+				{
+					"id": "load-object-images",
+					"objectClass": "System",
+					"sid": 704092157083858,
+					"parameters": {
+						"object": "Rock_collsion"
 					}
 				},
 				{
@@ -5650,6 +5666,35 @@
 				}
 			],
 			"sid": 479176807428996
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 490978503670609
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 987282476047493,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "load-object-images",
+					"objectClass": "System",
+					"sid": 717419911946045,
+					"parameters": {
+						"object": "Gif_cliff"
+					}
+				}
+			],
+			"sid": 110054675141090
 		}
 	],
 	"sid": 785976527585107
