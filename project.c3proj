@@ -395,7 +395,9 @@
 			"tree_crash",
 			"Rock_collision",
 			"Rock_collsion",
-			"PlayScoreSprite"
+			"PlayScoreSprite",
+			"MouseIcon",
+			"MouseIcon2"
 		],
 		"subfolders": []
 	},

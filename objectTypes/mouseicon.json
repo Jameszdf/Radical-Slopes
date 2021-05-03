@@ -1,0 +1,57 @@
+{
+	"name": "MouseIcon",
+	"plugin-id": "Sprite",
+	"sid": 215144331853845,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 13,
+						"height": 13,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6648098,
+						"collisionPoly": {
+							"points": [
+								0.23076923076923078,
+								0.23076923076923078,
+								0.5,
+								0,
+								0.6923076923076923,
+								0.23076923076923078,
+								0.9230769230769231,
+								0.5,
+								0.6923076923076923,
+								0.6923076923076923,
+								0.5,
+								0.9230769230769231,
+								0.23076923076923078,
+								0.6923076923076923,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 213891018697282,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
