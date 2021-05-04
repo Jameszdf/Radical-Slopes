@@ -2349,6 +2349,36 @@
 				}
 			],
 			"sid": 838362442707450
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 845253104437590
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 838862907340728,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "MouseIconParticle",
+					"sid": 578499725054479,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 726735184240636
 		}
 	],
 	"sid": 945073889186405

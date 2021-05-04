@@ -397,7 +397,7 @@
 			"Rock_collsion",
 			"PlayScoreSprite",
 			"MouseIcon",
-			"MouseIcon2"
+			"MouseIconParticle"
 		],
 		"subfolders": []
 	},

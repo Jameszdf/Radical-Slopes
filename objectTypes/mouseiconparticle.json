@@ -1,20 +1,20 @@
 {
-	"name": "MouseIcon2",
+	"name": "MouseIconParticle",
 	"plugin-id": "Particles",
-	"sid": 266942129890292,
+	"sid": 324460904225623,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 250,
-		"height": 250,
+		"width": 13,
+		"height": 13,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8407823,
+		"imageSpriteId": 1020128,
 		"useCollisionPoly": true
 	}
 }

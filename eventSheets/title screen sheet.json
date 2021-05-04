@@ -620,8 +620,8 @@
 				},
 				{
 					"id": "set-position",
-					"objectClass": "MouseIcon",
-					"sid": 556141175901019,
+					"objectClass": "MouseIconParticle",
+					"sid": 788678517666255,
 					"parameters": {
 						"x": "Mouse.X",
 						"y": "Mouse.Y"
