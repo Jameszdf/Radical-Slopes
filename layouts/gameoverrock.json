@@ -7486,8 +7486,8 @@
 				{
 					"type": "MouseIconParticle",
 					"properties": {
-						"rate": 20,
-						"spray-cone": 60,
+						"rate": 40,
+						"spray-cone": 90,
 						"type": "continuous-spray",
 						"object": -1,
 						"live-preview": false,

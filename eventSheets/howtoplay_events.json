@@ -546,6 +546,178 @@
 				}
 			],
 			"sid": 177758028843738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 725439826874478,
+					"parameters": {
+						"interval-seconds": "0.1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 295352588085547,
+					"parameters": {
+						"variable": "prevPositionX",
+						"value": "Mouse.X"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 400037150165300,
+					"parameters": {
+						"variable": "prevPositionY",
+						"value": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 333185918948149
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 774256075722165,
+					"parameters": {
+						"interval-seconds": "0.2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 339240471361556,
+					"parameters": {
+						"variable": "currentPositionX",
+						"value": "Mouse.X"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 199400233660364,
+					"parameters": {
+						"variable": "currentPositionY",
+						"value": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 650402924817393
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 944445690621665,
+					"parameters": {
+						"variable": "prevPositionX",
+						"comparison": 0,
+						"value": "currentPositionX"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-spraying",
+					"objectClass": "MouseIconParticle",
+					"sid": 351059146952119,
+					"parameters": {
+						"state": "not-spraying"
+					}
+				}
+			],
+			"sid": 986145064657865
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 571416231441477,
+					"parameters": {
+						"variable": "prevPositionX",
+						"comparison": 1,
+						"value": "currentPositionX"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-spraying",
+					"objectClass": "MouseIconParticle",
+					"sid": 937173848829574,
+					"parameters": {
+						"state": "spraying"
+					}
+				}
+			],
+			"sid": 487260837876755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 266166554907082,
+					"parameters": {
+						"variable": "prevPositionY",
+						"comparison": 0,
+						"value": "currentPositionY"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-spraying",
+					"objectClass": "MouseIconParticle",
+					"sid": 853140079839381,
+					"parameters": {
+						"state": "not-spraying"
+					}
+				}
+			],
+			"sid": 723008302651574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 467007561644535,
+					"parameters": {
+						"variable": "prevPositionY",
+						"comparison": 1,
+						"value": "currentPositionY"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-spraying",
+					"objectClass": "MouseIconParticle",
+					"sid": 700533610216017,
+					"parameters": {
+						"state": "spraying"
+					}
+				}
+			],
+			"sid": 669944324695692
 		}
 	],
 	"sid": 140736363367211
