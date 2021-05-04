@@ -2357,6 +2357,14 @@
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 845253104437590
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "PlayScoreSprite",
+					"sid": 675982452940317,
+					"parameters": {
+						"instance-variable": "PlayScore"
+					}
 				}
 			],
 			"actions": [
