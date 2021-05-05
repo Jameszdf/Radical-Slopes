@@ -1404,7 +1404,8 @@
 							}
 						}
 					],
-					"sid": 526988002353141
+					"sid": 526988002353141,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1487,7 +1488,8 @@
 							}
 						}
 					],
-					"sid": 884538635248762
+					"sid": 884538635248762,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1583,7 +1585,8 @@
 							}
 						}
 					],
-					"sid": 945098455058591
+					"sid": 945098455058591,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1629,6 +1632,7 @@
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
 							"sid": 886161270860746,
+							"disabled": true,
 							"parameters": {
 								"key": 32
 							},
